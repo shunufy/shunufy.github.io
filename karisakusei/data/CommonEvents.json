@@ -1,0 +1,10 @@
+[
+null,
+{"id":1,"list":[{"code":122,"indent":0,"parameters":[23,23,1,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"戦闘勝利回数","switchId":14,"trigger":1},
+{"id":2,"list":[{"code":111,"indent":0,"parameters":[12,"Input.isTriggered(\"ok\")"]},{"code":122,"indent":1,"parameters":[81,81,1,0,1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"連打カウント","switchId":100,"trigger":2},
+{"id":3,"list":[{"code":223,"indent":0,"parameters":[[-68,-68,-68,0],30,true]},{"code":231,"indent":0,"parameters":[1,"bbe0a9f4-34f5-45c5-b00b-ebff76cd879f",0,0,216,0,40,40,255,0]},{"code":230,"indent":0,"parameters":[900]},{"code":230,"indent":0,"parameters":[900]},{"code":230,"indent":0,"parameters":[900]},{"code":235,"indent":0,"parameters":[1]},{"code":223,"indent":0,"parameters":[[0,0,0,0],30,true]},{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["大切に包まれた"]},{"code":401,"indent":0,"parameters":["「お母さんの薬代」"]},{"code":401,"indent":0,"parameters":["を手に入れた"]},{"code":126,"indent":0,"parameters":[46,0,0,1]},{"code":126,"indent":0,"parameters":[45,1,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"手紙内容","switchId":2,"trigger":0},
+{"id":4,"list":[{"code":101,"indent":0,"parameters":["中村弘隆",0,0,2,""]},{"code":401,"indent":0,"parameters":["運が上がったような気がする"]},{"code":0,"indent":0,"parameters":[]}],"name":"risetto","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":125,"indent":0,"parameters":[0,0,10000]},{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["お金を抜き取った"]},{"code":126,"indent":0,"parameters":[46,1,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"ゆうパックで現金送るな","switchId":29,"trigger":0},
+{"id":6,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":7,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
