@@ -1,7 +1,7 @@
 body {
-  background: #fff0f5;
+  background: #7B4DC2;
   font-family: "Hiragino Mincho ProN", serif;
-  color: #333;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -9,13 +9,13 @@ body {
 header, footer {
   text-align: center;
   padding: 1em;
-  background-color: #fcdff0;
+  background-color: #693AB7;
 }
 
 nav a {
   margin: 0 1em;
   text-decoration: none;
-  color: #800080;
+  color: #ffd6ff;
 }
 
 main {
