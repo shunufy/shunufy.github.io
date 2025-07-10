@@ -1,5 +1,5 @@
 body {
-  background: #ffb2cc;
+  background: #ffecf3;
   font-family: "Hiragino Mincho ProN", serif;
   color: #000000;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 header, footer {
   text-align: center;
   padding: 1em;
-  background-color: #693AB7;
+  background-color: #9070c4;
 }
 
 nav a {
