@@ -2,44 +2,78 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ゲーム紹介</title>
+  <title>しゅぬさんの部屋 | ゲーム一覧</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🎮 shunufyのゲーム一覧 🎮</h1>
-    <nav>
-      <a href="index.html">ホーム</a>
-      <a href="games.html">ゲーム</a>
-      <a href="about.html">ご紹介</a>
-    </nav>
-  </header>
-  <main>
-    
-    <h2>現在公開中の作品</h2>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">
+          しゅぬさんの部屋
+          <span>– shunufy’s games –</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">ホーム</a>
+          <a href="games.html" class="is-active">ゲーム</a>
+          <a href="about.html">ご紹介</a>
+        </nav>
+      </div>
+    </header>
 
-<section>
-  <h3>🌟 中村の冒険</h3>
-  <p>
-  <a href="karisakusei/index.html" target="_blank">▶ プレイする</a>
-</p>
-  <p>謎と幻想の世界を巡る珠探しの冒険。切なくも美しい物語が、ここに開幕いたしますわ。</p>
-  <p>操作方法　移動 wasd　決定 Z　キャンセル/メニュー X　ダッシュ SHIFT　<dr>
-    音量はオプションから変更できます。</p>
-    <p>植木鉢などの草（祭ルート）を触ると何故か10倍速になってしまう不具合があります。<dr>
-      もし謎に倍速になってしまった場合一旦ゲームをセーブせずに終了してください。</p>
-</section>
-<section>
-  <h3>🌟 新作ゲームタイトル</h3>
-  <p>
-    <a href="sinai/" target="_blank">▶ プレイする</a>
-  </p>
-  <p>とある人に向けたそれだけのゲームです。　内容の無いごみげーです</p>
-  <p>操作方法　移動：WASD　決定：Z　キャンセル/メニュー：X　ダッシュ：SHIFT</p>
-</section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Shunufy. All Rights Reserved.</p>
-  </footer>
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1>🎮 shunufyのゲーム一覧</h1>
+        <p>完成したり、こっそり置いてあったりするゲームの置き場です。</p>
+      </div>
+
+      <section class="game-grid">
+
+        <!-- 中村の冒険 -->
+        <article class="game-card">
+          <h3>🌟 中村の冒険</h3>
+          <div class="game-meta">
+            <span class="tag">RPGツクールMZ</span>
+          </div>
+          <p class="game-desc">
+            何かと巻き込まれがちな中村さんが、よく分からない理不尽に立ち向かう短編RPGです。<br>
+            ネタ寄りのゆるい空気で、お気軽に一周していただけますわ。
+          </p>
+          <p class="game-ops">
+            ▶ 操作：方向キー / WASD で移動・Z/Enter で決定・X/Esc でキャンセル・Shift でダッシュ<br>
+            ※ もしゲーム速度が謎に倍速になってしまった場合は、セーブを行わず一度ゲームを終了して再起動してくださいませ。
+          </p>
+          <a href="karisakusei/" target="_blank" class="btn-primary">
+            <span>▶</span> プレイする（別タブ）
+          </a>
+        </article>
+
+        <!-- 親愛なるあなたへ -->
+        <article class="game-card">
+          <h3>🌟 親愛なるあなたへ</h3>
+          <div class="game-meta">
+            <span class="tag">RPGツクールMZ</span>
+            <span class="tag">ごく短編</span>
+          </div>
+          <p class="game-desc">
+            とある一人の「あなた」に向けて作った、ささやかな短編ゲームです。<br>
+            やらない方がいいです。
+          </p>
+          <p class="game-ops">
+            ▶ 操作：移動 WASD / 決定 Z / キャンセル・メニュー X / ダッシュ Shift
+          </p>
+          <a href="sinai/" target="_blank" class="btn-primary">
+            <span>▶</span> プレイする（別タブ）
+          </a>
+        </article>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; 2025 Shunufy. All Rights Reserved.
+    </footer>
+  </div>
 </body>
 </html>

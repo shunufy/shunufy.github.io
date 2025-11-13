@@ -2,24 +2,56 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>しゅぬさんの部屋</title>
+  <title>しゅぬさんの部屋 | ホーム</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>shunufyのご紹介</h1>
-    <nav>
-      <a href="index.html">ホーム</a>
-      <a href="games.html">ゲーム</a>
-      <a href="about.html">ご紹介</a>
-    </nav>
-  </header>
-  <main>
-    <h2>ようこそ、shunufyの部屋へ</h2>
-    <p>こちらでは、私が制作したゲームたちをご紹介しておりますの。</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Shunufy. All Rights Reserved.</p>
-  </footer>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">
+          しゅぬさんの部屋
+          <span>– shunufy’s tiny corner –</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html" class="is-active">ホーム</a>
+          <a href="games.html">ゲーム</a>
+          <a href="about.html">ご紹介</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1>ようこそ、shunufyの部屋へ</h1>
+        <p>自作ゲームやいろいろな遊びを、気の向くままに置いている場所ですわ。</p>
+      </div>
+
+      <section class="hero-section">
+        <div class="hero-main">
+          <h2>自作ゲームを公開中</h2>
+          <p>RPGツクールやUnityなどで制作したゲームを、少しずつ増やしておりますの。</p>
+          <p>短編のネタ作品から、感情重めのシリアス寄り作品まで、気軽に触っていただけましたら嬉しく存じます。</p>
+
+          <a href="games.html" class="btn-primary">
+            <span>▶</span> ゲーム一覧を見る
+          </a>
+        </div>
+
+        <aside class="hero-sub">
+          <div class="tag">おしらせ</div>
+          <p style="margin-top: 6px;">
+            サイトのデザインを少しずつ整え中です。<br>
+            表示が崩れている箇所などございましたら、X（旧Twitter）のDMなどで教えていただけると助かります。
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; 2025 Shunufy. All Rights Reserved.
+    </footer>
+  </div>
 </body>
 </html>

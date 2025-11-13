@@ -2,34 +2,72 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ご紹介</title>
+  <title>しゅぬさんの部屋 | ご紹介</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>👒 shunufyのご紹介 👒</h1>
-    <nav>
-      <a href="index.html">ホーム</a>
-      <a href="games.html">ゲーム</a>
-      <a href="about.html">ご紹介</a>
-    </nav>
-  </header>
-  <main>
-    <p>趣味でゲームを制作しております、しゅぬと申しますの。</p>
-    <p>えーまあ投稿サイトの審査に引っ掛かりそうだったのでいっその事<br>
-      自分で作ってしまえと作りました。 ここをホームページ的に使っていきます。<br>
-      サイトもゲームも熟練しているわけではないので、クオリティーは期待しないでね♡  <br>
-      何かご連絡などありましたらTwitter（旧X）のDMにでもご連絡ください。
-    <p>使用ツール：RPGツクールMZ・ 等</p>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">
+          しゅぬさんの部屋
+          <span>– about shunufy –</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">ホーム</a>
+          <a href="games.html">ゲーム</a>
+          <a href="about.html" class="is-active">ご紹介</a>
+        </nav>
+      </div>
+    </header>
 
-  <h2>🔗 外部リンク</h2>
-  <ul>
-    <li>🎥 <a href="https://www.youtube.com/@shunusann" target="_blank">YouTube チャンネル</a></li>
-    <li>🐦 <a href="https://x.com/CShunufy" target="_blank">Twitter / （旧）X アカウント</a></li>
-  </ul>
-  </main>
-  <footer>
-    <p>&copy; 2025 Shunufy. All Rights Reserved.</p>
-  </footer>
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1> shunufyのご紹介</h1>
+        <p>ふんわりゲームを作ったり、配信したりしている人でございます。</p>
+      </div>
+
+      <section class="profile-layout">
+
+        <article class="profile-block">
+          <h2>📝だいたいこんな人</h2>
+          <ul class="profile-list">
+            <li>RPGツクールMZ や Unity などで、短編ゲームを中心に制作中。</li>
+            <li>ネタ系も感動系も好きで、思いついたものを気ままに形にしております。</li>
+          </ul>
+
+          <h2 style="margin-top: 14px;">🎮 ゲーム制作まわり</h2>
+          <ul class="profile-list">
+            <li>ジャンル：短編RPG・ノベル寄り作品・ちょっと不思議系など。</li>
+            <li>今後はシステム寄り・ギミック強めの作品にも挑戦予定ですわ。</li>
+            <li>使用ツール：RPGツクールMZ ほか、Unity なども勉強中。</li>
+          </ul>
+
+          <h2 style="margin-top: 14px;">📩 ご連絡について</h2>
+          <p style="font-size: 0.9rem; margin-top: 4px;">
+            何かご連絡などございましたら、X（旧Twitter）のDMにてお声がけくださいませ。<br>
+          </p>
+        </article>
+
+        <aside class="profile-side-block">
+          <h2>🔗 外部リンク</h2>
+          <ul class="links-list">
+            <li>🎥 <a href="https://www.youtube.com/@shunusann" target="_blank">YouTube チャンネル</a></li>
+            <li>🐦 <a href="https://x.com/CShunufy" target="_blank">X（旧Twitter）アカウント</a></li>
+          </ul>
+          <p style="margin-top: 10px; font-size: 0.86rem; color: var(--text-muted);">
+            動画・配信・ゲーム制作など、気まぐれに活動しております。<br>
+            どれか一つでも楽しんでいただけたら、とても嬉しゅうございます。
+          </p>
+        </aside>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; 2025 Shunufy. All Rights Reserved.
+    </footer>
+  </div>
 </body>
 </html>
