@@ -760,3 +760,49 @@ body.modal-open{ overflow: hidden; }
   *{ scroll-behavior:auto !important; transition:none !important; }
   .theme-toggle:hover, .chip:hover{ transform:none !important; }
 }
+/* ===== Fix: light cards should use dark text even in dark theme ===== */
+:root{
+  --card-bg: #fbfbfe;
+  --card-fg: #17151f;
+  --card-muted: rgba(23, 21, 31, .72);
+  --card-border: rgba(23, 21, 31, .12);
+  --card-link: #5b4bd6;
+}
+
+.card,
+.game-card,
+.panel.light,
+.surface.light,
+.notice,
+.about-card{
+  background: var(--card-bg);
+  color: var(--card-fg);
+  border-color: var(--card-border);
+}
+
+.card h1, .card h2, .card h3,
+.game-card h1, .game-card h2, .game-card h3,
+.about-card h1, .about-card h2, .about-card h3{
+  color: var(--card-fg);
+}
+
+.card p, .card li, .card small,
+.game-card p, .game-card li, .game-card small,
+.about-card p, .about-card li, .about-card small{
+  color: var(--card-muted);
+}
+
+.card a, .game-card a, .about-card a{
+  color: var(--card-link);
+}
+
+.card .chip, .game-card .chip{
+  background: rgba(91, 75, 214, .10);
+  color: var(--card-fg);
+  border: 1px solid rgba(91, 75, 214, .25);
+}
+
+/* ボタンは白カード上でも読みやすく */
+.card .btn, .game-card .btn, .about-card .btn{
+  color: white;
+}
