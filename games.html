@@ -5,6 +5,10 @@
   <title>しゅぬさんの部屋 | ゲーム一覧</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#4b2f86">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
   <div class="page-wrapper">
@@ -19,6 +23,10 @@
           <a href="games.html" class="is-active">ゲーム</a>
           <a href="about.html">ご紹介</a>
         </nav>
+      
+        <button id="themeToggleBtn" class="theme-toggle" type="button" aria-label="テーマ: 自動">
+          <span class="theme-ic" aria-hidden="true">◑</span><span class="theme-tx">自動</span>
+        </button>
       </div>
     </header>
 
@@ -28,7 +36,24 @@
         <p>完成したり、こっそり置いてあったりするゲームの置き場です。</p>
       </div>
 
-      <section class="game-grid">
+      
+      <section class="games-list">
+        <div class="game-tools" role="region" aria-label="検索と絞り込み">
+          <div class="tool-row">
+            <label class="tool-label" for="gameSearch">検索</label>
+            <input id="gameSearch" class="tool-input" type="search" placeholder="タイトル・タグで検索…" autocomplete="off">
+            <label class="tool-label sr-only" for="gameSort">並び替え</label>
+            <select id="gameSort" class="tool-select">
+              <option value="title">並び替え：タイトル</option>
+              <option value="tag">並び替え：タグ</option>
+            </select>
+          </div>
+          <div id="tagChips" class="chip-wrap" aria-label="タグ"></div>
+          <div id="gameCount" class="tool-count">表示: 0 / 0 件</div>
+        </div>
+
+        <div id="gamesGrid" class="games-grid">
+
 
         <!-- 中村の冒険 -->
         <article class="game-card">
@@ -68,12 +93,37 @@
           </a>
         </article>
 
+      
+        </div>
       </section>
+
     </main>
 
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="ゲームを表示">
+      <div class="modal-panel">
+        <div class="modal-head">
+          <div class="modal-title" id="modalTitle">Game</div>
+          <div class="modal-head-actions">
+            <button id="modalOpenNew" class="btn-sub" type="button">別タブで開く</button>
+            <button id="modalClose" class="btn-sub" type="button">閉じる</button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <iframe id="modalFrame" title="Game Frame" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+
     <footer class="site-footer">
-      &copy; 2025 Shunufy. All Rights Reserved.
+      &copy; <span id="year"></span> Shunufy. All Rights Reserved.
     </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="上へ戻る">▲</button>
+
   </div>
+  <script src="app.js"></script>
 </body>
 </html>

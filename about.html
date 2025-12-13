@@ -5,6 +5,10 @@
   <title>しゅぬさんの部屋 | ご紹介</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#4b2f86">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
   <div class="page-wrapper">
@@ -19,6 +23,10 @@
           <a href="games.html">ゲーム</a>
           <a href="about.html" class="is-active">ご紹介</a>
         </nav>
+      
+        <button id="themeToggleBtn" class="theme-toggle" type="button" aria-label="テーマ: 自動">
+          <span class="theme-ic" aria-hidden="true">◑</span><span class="theme-tx">自動</span>
+        </button>
       </div>
     </header>
 
@@ -66,8 +74,14 @@
     </main>
 
     <footer class="site-footer">
-      &copy; 2025 Shunufy. All Rights Reserved.
+      &copy; <span id="year"></span> Shunufy. All Rights Reserved.
     </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="上へ戻る">▲</button>
+
   </div>
+  <script src="app.js"></script>
 </body>
 </html>

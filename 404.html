@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ページが見つかりません | しゅぬさんの部屋</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">しゅぬさんの部屋 <span>– shunufy’s tiny corner –</span></div>
+        <nav class="nav-links">
+          <a href="index.html">ホーム</a>
+          <a href="games.html">ゲーム</a>
+          <a href="about.html">ご紹介</a>
+        </nav>
+        <button id="themeToggleBtn" class="theme-toggle" type="button" aria-label="テーマ: 自動">
+          <span class="theme-ic" aria-hidden="true">◑</span><span class="theme-tx">自動</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1>ページが見つかりませんでしたわ</h1>
+        <p>URLをご確認いただくか、メニューから移動してくださいませ。</p>
+      </div>
+      <div class="card">
+        <p>・ページ本体はキャッシュから表示できることがありますが、ゲームの読み込みはネット接続が必要な場合があります。</p>
+        <p>・戻る：<a href="index.html">ホーム</a></p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>© <span id="year"></span> shunufy</div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="上へ戻る">▲</button>
+  </div>
+  <script src="app.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
