@@ -1,94 +1,208 @@
-/* ================================
-   基本設定
-================================ */
-:root {
-  --bg: #f7f2ff;
-  --bg-accent: #ffffff;
-  --accent: #b38cff;
-  --accent-soft: #e7d9ff;
-  --accent-strong: #7b57d1;
-  --text-main: #231634;
-  --text-muted: #685480;
-  --border-soft: rgba(179, 140, 255, 0.35);
-  --radius-lg: 18px;
-  --radius-md: 12px;
-  --shadow-soft: 0 18px 35px rgba(15, 7, 32, 0.15);
-}
+/* =========================================================
+   Shunufy Site - style.css (Complete / Consolidated)
+   - しゅぬさん用：追記で散らかったCSSを「1枚」に整理した完全版
+   - 対象HTML: index.html / games.html / about.html（現行クラスに対応）
+   - Fix含む:
+     * 白いカードの文字が薄い問題（game-card / profile-*）
+     * 並び替え<select>の候補が白い問題（color-scheme + option色）
+     * テーマ切替ボタン周りの「四角い背景」(backdrop-filter角欠け) → overflow hidden
+========================================================= */
 
+/* -------------------------
+   Reset / Base
+------------------------- */
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
+html, body { margin: 0; padding: 0; }
 
-body {
+body{
   min-height: 100vh;
-  background: radial-gradient(circle at top, #ffeaf5 0, #f7f2ff 45%, #f2ecff 100%);
-  font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic UI", "YuGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
-  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic UI", "YuGothic",
+               "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  line-height: 1.55;
 }
 
-/* ================================
-   レイアウト
-================================ */
+/* -------------------------
+   Theme Variables
+   - js が html に data-theme-mode="auto|light|dark" と data-theme="light|dark" を付与
+------------------------- */
+:root{
+  /* global */
+  --bg: #f7f2ff;
+  --text: #231634;
+  --muted: rgba(35,22,52,0.72);
+  --border: rgba(35,22,52,0.14);
+  --shadow: 0 18px 50px rgba(35,22,52,0.18);
 
-.page-wrapper {
+  /* purple accents */
+  --accent: #7b57d1;
+  --accent2: #b38cff;
+  --ring: rgba(179,140,255,0.55);
+
+  /* surfaces */
+  --surface: rgba(255,255,255,0.92);
+  --surface2: rgba(255,255,255,0.76);
+  --panel: rgba(255,255,255,0.86);
+  --panel-border: rgba(179,140,255,0.34);
+
+  /* inputs / chips */
+  --input-bg: rgba(35,22,52,0.06);
+  --input-text: #231634;
+  --input-ph: rgba(35,22,52,0.48);
+
+  --chip-bg: rgba(123,87,209,0.14);
+  --chip-bg-hover: rgba(179,140,255,0.18);
+  --chip-bg-active: rgba(123,87,209,0.22);
+  --chip-text: #231634;
+
+  /* light cards (白いカードは常にこの配色) */
+  --lightCard-bg: rgba(255,255,255,0.96);
+  --lightCard-fg: #1b1726;
+  --lightCard-muted: rgba(27,23,38,0.72);
+  --lightCard-border: rgba(27,23,38,0.12);
+  --lightCard-link: #5b4bd6;
+}
+
+/* Manual dark */
+html[data-theme="dark"]{
+  --bg: #0f0b17;
+  --text: rgba(247,242,255,0.96);
+  --muted: rgba(247,242,255,0.70);
+  --border: rgba(255,255,255,0.14);
+  --shadow: 0 18px 60px rgba(0,0,0,0.55);
+
+  --accent: #b38cff;
+  --accent2: #e7d9ff;
+  --ring: rgba(179,140,255,0.58);
+
+  --surface: rgba(20,16,30,0.86);
+  --surface2: rgba(20,16,30,0.72);
+  --panel: rgba(18,14,28,0.86);
+  --panel-border: rgba(179,140,255,0.26);
+
+  --input-bg: rgba(255,255,255,0.08);
+  --input-text: rgba(247,242,255,0.96);
+  --input-ph: rgba(247,242,255,0.55);
+
+  --chip-bg: rgba(179,140,255,0.14);
+  --chip-bg-hover: rgba(179,140,255,0.18);
+  --chip-bg-active: rgba(179,140,255,0.28);
+  --chip-text: rgba(247,242,255,0.92);
+}
+
+/* Auto dark (OS dark + auto mode) */
+@media (prefers-color-scheme: dark){
+  html[data-theme-mode="auto"]{
+    --bg: #0f0b17;
+    --text: rgba(247,242,255,0.96);
+    --muted: rgba(247,242,255,0.70);
+    --border: rgba(255,255,255,0.14);
+    --shadow: 0 18px 60px rgba(0,0,0,0.55);
+
+    --accent: #b38cff;
+    --accent2: #e7d9ff;
+    --ring: rgba(179,140,255,0.58);
+
+    --surface: rgba(20,16,30,0.86);
+    --surface2: rgba(20,16,30,0.72);
+    --panel: rgba(18,14,28,0.86);
+    --panel-border: rgba(179,140,255,0.26);
+
+    --input-bg: rgba(255,255,255,0.08);
+    --input-text: rgba(247,242,255,0.96);
+    --input-ph: rgba(247,242,255,0.55);
+
+    --chip-bg: rgba(179,140,255,0.14);
+    --chip-bg-hover: rgba(179,140,255,0.18);
+    --chip-bg-active: rgba(179,140,255,0.28);
+    --chip-text: rgba(247,242,255,0.92);
+  }
+}
+
+/* -------------------------
+   Global look
+------------------------- */
+body{
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(123,87,209,0.40), transparent 60%),
+    radial-gradient(1000px 520px at 95% 0%, rgba(255,234,245,0.55), transparent 60%),
+    var(--bg);
+  color: var(--text);
+}
+
+a{ color: inherit; }
+
+::selection{
+  background: rgba(179,140,255,0.35);
+}
+
+/* -------------------------
+   Layout
+------------------------- */
+.page-wrapper{
   max-width: 1000px;
   margin: 0 auto;
   padding: 16px 16px 40px;
 }
 
-.card-surface {
-  background: rgba(255, 255, 255, 0.92);
+.card-surface{
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 28px;
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--shadow);
   padding: 20px 22px;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-/* ================================
-   ヘッダー / ナビ
-================================ */
+main{ margin-top: 10px; }
 
-.site-header {
+/* -------------------------
+   Header / Nav
+------------------------- */
+.site-header{
   position: sticky;
   top: 0;
   z-index: 10;
   margin-bottom: 24px;
+  background: transparent; /* ← 四角い背景を出さない */
 }
 
-.site-header-inner {
+/* ★Fix: backdrop-filter 角欠け（四角い裏）が出る環境に効く */
+.site-header-inner{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   padding: 10px 18px;
   border-radius: 999px;
-  background: rgba(144, 112, 196, 0.9);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 14px 30px rgba(60, 24, 120, 0.35);
+
+  /* ここは“ピル”として表示 */
+  background: rgba(144,112,196,0.90);
+  box-shadow: 0 14px 30px rgba(60,24,120,0.35);
   color: #fff;
+
+  /* ★重要：backdrop-filterの描画を丸角でクリップ */
+  overflow: hidden;
+  isolation: isolate;
 }
 
-.site-title {
+.site-title{
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.04em;
   white-space: nowrap;
 }
-
-.site-title span {
+.site-title span{
   opacity: 0.85;
   font-size: 0.82rem;
-  margin-left: 4px;
+  margin-left: 6px;
+  font-weight: 600;
 }
 
-.nav-links {
+.nav-links{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -97,431 +211,178 @@ body {
   justify-content: flex-end;
 }
 
-.nav-links a {
+.nav-links a{
   position: relative;
   color: #ffeefd;
   text-decoration: none;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 999px;
-  transition: background 0.18s ease, color 0.18s ease, transform 0.12s ease;
+  border: 1px solid transparent;
+  transition: background 0.18s ease, transform 0.12s ease, border-color 0.18s ease;
 }
-
-.nav-links a::after {
-  content: "";
-  position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: 1px;
-  height: 2px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.8);
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.18s ease;
-}
-
-.nav-links a:hover {
-  background: rgba(255, 255, 255, 0.18);
+.nav-links a:hover{
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.20);
   transform: translateY(-1px);
 }
-
-.nav-links a:hover::after {
-  transform: scaleX(1);
-}
-
-.nav-links a.is-active {
-  background: rgba(255, 255, 255, 0.24);
+.nav-links a.is-active{
+  background: rgba(255,255,255,0.24);
+  border-color: rgba(255,255,255,0.22);
   color: #fff;
 }
 
-/* ================================
-   共通 main / 見出し
-================================ */
-
-main {
-  margin-top: 10px;
+/* Theme toggle button */
+.theme-toggle{
+  margin-left: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.10);
+  color: #fff;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden; /* 念のため */
+  transition: transform 0.12s ease, background 0.18s ease, border-color 0.18s ease;
 }
-
-.page-heading {
-  margin-bottom: 18px;
+.theme-toggle:hover{
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.14);
 }
+.theme-toggle:active{ transform: translateY(0px); }
+.theme-toggle:focus-visible{
+  outline: 3px solid rgba(255,255,255,0.35);
+  outline-offset: 2px;
+}
+.theme-ic{ font-size: 16px; opacity: 0.95; }
+.theme-tx{ font-size: 14px; letter-spacing: 0.02em; }
 
-.page-heading h1 {
+/* -------------------------
+   Page Heading
+------------------------- */
+.page-heading{ margin-bottom: 18px; }
+.page-heading h1{
   font-size: 1.5rem;
   margin: 0;
   display: flex;
   align-items: center;
   gap: 8px;
 }
-
-.page-heading p {
+.page-heading p{
   margin: 6px 0 0;
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: var(--muted);
 }
 
-/* ================================
-   トップページ
-================================ */
-
-.hero-section {
+/* -------------------------
+   Top page (Hero)
+------------------------- */
+.hero-section{
   display: grid;
   grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.6fr);
   gap: 20px;
   align-items: center;
 }
-
-.hero-main h2 {
+.hero-main h2{
   font-size: 1.6rem;
   margin: 0 0 8px;
 }
-
-.hero-main p {
+.hero-main p{
   margin: 4px 0;
   font-size: 0.96rem;
 }
-
-.hero-sub {
+.hero-sub{
   padding: 14px 16px;
-  border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, rgba(255, 247, 255, 0.95), rgba(231, 217, 255, 0.98));
-  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255,247,255,0.95), rgba(231,217,255,0.98));
+  border: 1px solid rgba(179,140,255,0.35);
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: rgba(35,22,52,0.72);
 }
 
-/* ================================
-   ボタン / バッジ
-================================ */
+/* -------------------------
+   Buttons / Tags
+------------------------- */
+.btn-primary{
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(179,140,255,0.40);
+  background: linear-gradient(135deg, rgba(123,87,209,0.96), rgba(179,140,255,0.96));
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  box-shadow: 0 14px 26px rgba(123,87,209,0.32);
+  transition: transform 0.12s ease, filter 0.18s ease;
+}
+.btn-primary:hover{
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+.btn-primary:active{ transform: translateY(0px); }
+.btn-primary:focus-visible{
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
 
-.btn-primary {
+.btn-sub{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  margin-top: 12px;
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 12px 22px rgba(60, 24, 120, 0.38);
-  transition: transform 0.11s ease, box-shadow 0.11s ease, filter 0.11s ease;
-}
-
-.btn-primary span {
-  font-size: 1.1em;
-}
-
-.btn-primary:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 16px 28px rgba(60, 24, 120, 0.45);
-  filter: brightness(1.03);
-}
-
-.tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid var(--accent-soft);
-  color: var(--text-muted);
-}
-
-/* ================================
-   ゲーム一覧
-================================ */
-
-.game-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
-  margin-top: 10px;
-}
-
-.game-card {
-  background: var(--bg-accent);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-soft);
-  padding: 16px 16px 14px;
-  box-shadow: 0 14px 26px rgba(15, 7, 32, 0.12);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.game-card h3 {
-  margin: 0;
-  font-size: 1.05rem;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.game-meta {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
-
-.game-desc {
-  font-size: 0.9rem;
-  margin: 6px 0;
-}
-
-.game-ops {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
-
-.game-card .btn-primary {
-  align-self: flex-start;
-  margin-top: 6px;
-}
-
-/* ================================
-   ご紹介ページ
-================================ */
-
-.profile-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.5fr);
-  gap: 20px;
-}
-
-.profile-block, .profile-side-block {
-  background: var(--bg-accent);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-soft);
-  padding: 14px 16px;
-  box-shadow: 0 12px 22px rgba(15, 7, 32, 0.12);
-}
-
-.profile-block h2,
-.profile-side-block h2 {
-  margin-top: 0;
-  font-size: 1.02rem;
-}
-
-.profile-list {
-  margin: 6px 0 0;
-  padding-left: 18px;
-  font-size: 0.9rem;
-}
-
-.profile-list li + li {
-  margin-top: 4px;
-}
-
-.links-list {
-  margin: 8px 0 0;
-  padding-left: 18px;
-  font-size: 0.9rem;
-}
-
-.links-list li + li {
-  margin-top: 4px;
-}
-
-.links-list a {
-  color: var(--accent-strong);
-  text-decoration: none;
-}
-
-.links-list a:hover {
-  text-decoration: underline;
-}
-
-/* ================================
-   フッター
-================================ */
-
-.site-footer {
-  margin-top: 24px;
-  font-size: 0.78rem;
-  text-align: center;
-  color: var(--text-muted);
-}
-
-/* ================================
-   スマホ調整
-================================ */
-
-@media (max-width: 720px) {
-  .site-header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .page-wrapper {
-    padding: 12px 10px 32px;
-  }
-
-  .card-surface {
-    padding: 16px 14px;
-  }
-
-  .hero-section,
-  .profile-layout {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-
-
-
-/* =========================================
-   追加機能：テーマ切替 / ゲーム検索 / PWA UI
-   - 既存デザインを壊さず、読みやすさ優先で上書き
-========================================= */
-
-:root{
-  --bg: #f7f2ff;
-  --surface: rgba(255,255,255,0.92);
-  --surface-2: rgba(255,255,255,0.78);
-  --text: #231634;
-  --muted: rgba(35,22,52,0.70);
-  --border: rgba(35,22,52,0.14);
-  --shadow: 0 18px 50px rgba(35,22,52,0.18);
-  --accent: #7b57d1;
-  --accent-2: #b38cff;
-  --chip: rgba(123,87,209,0.14);
-  --chip-active: rgba(123,87,209,0.22);
-  --chip-text: #231634;
-  --input-bg: rgba(35,22,52,0.06);
-  --input-text: #231634;
-  --input-ph: rgba(35,22,52,0.48);
-  --panel: rgba(255,255,255,0.86);
-  --panel-border: rgba(179,140,255,0.34);
-  --ring: rgba(179,140,255,0.55);
-}
-
-/* Dark variables */
-html[data-theme="dark"]{
-  --bg: #0f0b17;
-  --surface: rgba(20,16,30,0.86);
-  --surface-2: rgba(20,16,30,0.72);
-  --text: rgba(247,242,255,0.96);
-  --muted: rgba(247,242,255,0.70);
-  --border: rgba(255,255,255,0.14);
-  --shadow: 0 18px 60px rgba(0,0,0,0.55);
-  --accent: #b38cff;
-  --accent-2: #e7d9ff;
-  --chip: rgba(179,140,255,0.14);
-  --chip-active: rgba(179,140,255,0.28);
-  --chip-text: rgba(247,242,255,0.92);
-  --input-bg: rgba(255,255,255,0.08);
-  --input-text: rgba(247,242,255,0.96);
-  --input-ph: rgba(247,242,255,0.55);
-  --panel: rgba(18,14,28,0.86);
-  --panel-border: rgba(179,140,255,0.26);
-  --ring: rgba(179,140,255,0.58);
-}
-
-@media (prefers-color-scheme: dark){
-  html[data-theme-mode="auto"]{
-    --bg: #0f0b17;
-    --surface: rgba(20,16,30,0.86);
-    --surface-2: rgba(20,16,30,0.72);
-    --text: rgba(247,242,255,0.96);
-    --muted: rgba(247,242,255,0.70);
-    --border: rgba(255,255,255,0.14);
-    --shadow: 0 18px 60px rgba(0,0,0,0.55);
-    --accent: #b38cff;
-    --accent-2: #e7d9ff;
-    --chip: rgba(179,140,255,0.14);
-    --chip-active: rgba(179,140,255,0.28);
-    --chip-text: rgba(247,242,255,0.92);
-    --input-bg: rgba(255,255,255,0.08);
-    --input-text: rgba(247,242,255,0.96);
-    --input-ph: rgba(247,242,255,0.55);
-    --panel: rgba(18,14,28,0.86);
-    --panel-border: rgba(179,140,255,0.26);
-    --ring: rgba(179,140,255,0.58);
-  }
-}
-
-/* Global surface usage */
-body{
-  background: radial-gradient(1200px 600px at 20% -10%, rgba(123,87,209,0.40), transparent 60%),
-              radial-gradient(1000px 500px at 95% 0%, rgba(255,234,245,0.55), transparent 60%),
-              var(--bg);
-  color: var(--text);
-}
-
-.card-surface{
-  background: var(--surface);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-}
-
-.site-header{
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background: var(--surface-2);
-  border-bottom: 1px solid var(--border);
-}
-
-.site-title, .nav-links a{
-  color: var(--text);
-}
-
-.nav-links a{
-  border: 1px solid transparent;
-}
-.nav-links a:hover{
-  border-color: var(--border);
-  background: rgba(255,255,255,0.10);
-}
-html[data-theme="dark"] .nav-links a:hover{
-  background: rgba(255,255,255,0.06);
-}
-
-.site-footer{
-  color: var(--muted);
-  border-top: 1px solid var(--border);
-}
-
-/* Theme toggle button */
-.theme-toggle{
-  margin-left: 14px;
+  gap: 8px;
   padding: 10px 14px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.10);
   color: var(--text);
-  font-weight: 700;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.18s ease, border-color 0.18s ease;
+}
+.btn-sub:hover{
+  transform: translateY(-1px);
+  background: rgba(179,140,255,0.14);
+  border-color: rgba(179,140,255,0.40);
+}
+html[data-theme="dark"] .btn-sub{ background: rgba(255,255,255,0.06); }
+
+.tag{
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  user-select: none;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(179,140,255,0.35);
+  background: rgba(179,140,255,0.10);
+  color: rgba(35,22,52,0.75);
+  font-size: 0.82rem;
+  font-weight: 800;
 }
-html[data-theme="dark"] .theme-toggle{
-  background: rgba(255,255,255,0.06);
-}
-.theme-toggle:hover{ transform: translateY(-1px); }
-.theme-toggle:active{ transform: translateY(0px); }
-.theme-toggle:focus-visible{
-  outline: 3px solid var(--ring);
-  outline-offset: 2px;
-}
-.theme-ic{ font-size: 16px; opacity: 0.95; }
-.theme-tx{ font-size: 14px; letter-spacing: 0.02em; }
 
-/* Screen-reader only */
+/* -------------------------
+   Screen-reader only
+------------------------- */
 .sr-only{
-  position:absolute!important;
-  width:1px;height:1px;
-  padding:0;margin:-1px;
-  overflow:hidden;clip:rect(0,0,0,0);
-  white-space:nowrap;border:0;
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
-/* Tools panel (this is the part you said is hard to read) */
+/* -------------------------
+   Games page: Tools panel
+------------------------- */
 .game-tools{
   padding: 18px 18px 14px;
   border-radius: 18px;
@@ -531,6 +392,8 @@ html[data-theme="dark"] .theme-toggle{
   position: sticky;
   top: 14px;
   z-index: 10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .tool-row{
@@ -542,7 +405,7 @@ html[data-theme="dark"] .theme-toggle{
 
 .tool-label{
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 900;
   font-size: 14px;
 }
 
@@ -556,11 +419,33 @@ html[data-theme="dark"] .theme-toggle{
   padding: 0 14px;
   font-size: 16px;
 }
+
+/* placeholder */
 .tool-input::placeholder{ color: var(--input-ph); }
 
+/* focus */
 .tool-input:focus-visible, .tool-select:focus-visible{
   outline: 3px solid var(--ring);
   outline-offset: 2px;
+}
+
+/* ★Fix: 並び替え<select>の候補が白い */
+.tool-select{ color-scheme: light; }
+html[data-theme="dark"] .tool-select{ color-scheme: dark; }
+@media (prefers-color-scheme: dark){
+  html[data-theme-mode="auto"] .tool-select{ color-scheme: dark; }
+}
+html[data-theme="dark"] .tool-select option,
+html[data-theme="dark"] .tool-select optgroup{
+  background: #1a1426;
+  color: rgba(247,242,255,0.96);
+}
+@media (prefers-color-scheme: dark){
+  html[data-theme-mode="auto"] .tool-select option,
+  html[data-theme-mode="auto"] .tool-select optgroup{
+    background: #1a1426;
+    color: rgba(247,242,255,0.96);
+  }
 }
 
 .chip-wrap{
@@ -572,20 +457,21 @@ html[data-theme="dark"] .theme-toggle{
 
 .chip{
   border: 1px solid var(--border);
-  background: var(--chip);
+  background: var(--chip-bg);
   color: var(--chip-text);
   border-radius: 999px;
   padding: 10px 14px;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 14px;
   cursor: pointer;
+  transition: transform 0.12s ease, background 0.18s ease, border-color 0.18s ease;
 }
 .chip:hover{
   transform: translateY(-1px);
-  background: rgba(179,140,255,0.18);
+  background: var(--chip-bg-hover);
 }
 .chip.is-active{
-  background: var(--chip-active);
+  background: var(--chip-bg-active);
   border-color: rgba(179,140,255,0.55);
   box-shadow: 0 0 0 3px rgba(179,140,255,0.18);
 }
@@ -593,210 +479,303 @@ html[data-theme="dark"] .theme-toggle{
 .tool-count{
   margin-top: 10px;
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 900;
 }
 
-/* Games grid */
+/* -------------------------
+   Games page: Grid / Card
+------------------------- */
 .games-grid{
-  margin-top: 18px;
+  margin-top: 16px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
-@media (max-width: 980px){
-  .tool-row{ grid-template-columns: 60px 1fr; }
-  .tool-row .tool-select{ grid-column: 1 / -1; }
-  .games-grid{ grid-template-columns: 1fr; }
-}
 
+/* white card */
 .game-card{
-  position: relative;
+  background: var(--lightCard-bg);
+  border: 1px solid var(--lightCard-border);
+  border-radius: 22px;
+  padding: 16px 16px 14px;
+  box-shadow: 0 16px 30px rgba(15,7,32,0.14);
 }
 
+.game-card h3{
+  margin: 0 0 8px;
+  color: var(--lightCard-fg);
+  font-size: 1.12rem;
+}
+
+.game-meta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.game-card .tag{
+  background: rgba(91,75,214,0.08);
+  border-color: rgba(91,75,214,0.22);
+  color: rgba(27,23,38,0.78);
+}
+
+.game-desc{
+  margin: 8px 0;
+  color: var(--lightCard-muted);
+  font-size: 0.95rem;
+}
+
+.game-ops{
+  margin: 10px 0 12px;
+  color: rgba(27,23,38,0.74);
+  font-size: 0.9rem;
+}
+
+/* actions row injected by app.js */
+.game-actions{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.game-card .btn-sub{
+  background: rgba(91,75,214,0.10);
+  border-color: rgba(27,23,38,0.14);
+  color: var(--lightCard-fg);
+}
+.game-card .btn-sub:hover{
+  background: rgba(91,75,214,0.16);
+  transform: translateY(-1px);
+}
+
+/* hide for filter */
 .game-card.is-hidden{ display: none; }
 
-.game-actions{
-  margin-top: 12px;
+/* -------------------------
+   About page (Profile)
+------------------------- */
+.profile-layout{
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.6fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.profile-block,
+.profile-side-block{
+  background: var(--lightCard-bg);
+  border: 1px solid var(--lightCard-border);
+  border-radius: 22px;
+  padding: 16px 16px 14px;
+  box-shadow: 0 16px 30px rgba(15,7,32,0.14);
+  color: var(--lightCard-fg);
+}
+
+.profile-block h2,
+.profile-side-block h2{
+  margin: 0 0 10px;
+  color: var(--lightCard-fg);
+}
+
+.profile-list,
+.links-list{
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--lightCard-muted);
+}
+.profile-list li,
+.links-list li{
+  margin: 6px 0;
+}
+
+.profile-side-block a{
+  color: var(--lightCard-link);
+  text-decoration: none;
+  font-weight: 900;
+}
+.profile-side-block a:hover{
+  text-decoration: underline;
+}
+
+/* -------------------------
+   Modal (games page)
+------------------------- */
+.modal{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.62);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 50;
+}
+.modal.open{ display: flex; }
+
+.modal-panel{
+  width: min(1000px, 100%);
+  max-height: min(88vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.modal-head{
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--surface2);
+  border-bottom: 1px solid var(--border);
+}
+.modal-title{
+  font-weight: 900;
+  color: var(--text);
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.modal-head-actions{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.btn-sub{
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.08);
-  color: var(--text);
-  border-radius: 12px;
-  padding: 10px 12px;
-  font-weight: 800;
-  cursor: pointer;
+.modal-body{
+  padding: 0;
+  background: rgba(0,0,0,0.10);
+  flex: 1;
 }
-html[data-theme="dark"] .btn-sub{ background: rgba(255,255,255,0.06); }
-.btn-sub:focus-visible{
-  outline: 3px solid var(--ring);
-  outline-offset: 2px;
+.modal-body iframe{
+  width: 100%;
+  height: 70vh;
+  border: 0;
+  display: block;
+  background: #000;
 }
 
-/* Modal */
-.modal{
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-  z-index: 1000;
-}
-.modal.open{ display: flex; }
-.modal-panel{
-  width: min(1100px, 96vw);
-  height: min(720px, 88vh);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 26px 80px rgba(0,0,0,0.55);
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
-.modal-head{
-  padding: 14px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  background: var(--surface-2);
-  border-bottom: 1px solid var(--border);
-}
-.modal-title{
-  font-weight: 900;
-  letter-spacing: 0.02em;
-}
-.modal-head-actions{
-  display: flex;
-  gap: 10px;
-}
-.modal-body{
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.10);
-}
-#modalFrame{
-  width: 100%;
-  height: 100%;
-  border: 0;
-  background: transparent;
-}
 body.modal-open{ overflow: hidden; }
 
-/* Toast */
+/* -------------------------
+   Toast
+------------------------- */
 .toast{
   position: fixed;
   left: 50%;
-  bottom: 22px;
-  transform: translateX(-50%) translateY(18px);
+  bottom: 16px;
+  transform: translateX(-50%) translateY(20px);
   background: rgba(20,16,30,0.92);
   color: rgba(247,242,255,0.96);
-  border: 1px solid rgba(255,255,255,0.14);
   padding: 10px 14px;
-  border-radius: 14px;
-  font-weight: 800;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 18px 50px rgba(0,0,0,0.45);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 180ms ease, transform 180ms ease;
-  z-index: 1200;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  z-index: 70;
 }
 .toast.show{
   opacity: 1;
-  transform: translateX(-50%) translateY(0px);
+  transform: translateX(-50%) translateY(0);
 }
 
-/* Scroll progress */
+/* -------------------------
+   Scroll progress + Back to top
+------------------------- */
 .scroll-progress{
   position: fixed;
-  top: 0;
   left: 0;
+  top: 0;
   height: 4px;
   width: 100%;
-  transform-origin: 0 50%;
+  transform-origin: left;
   transform: scaleX(0);
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  z-index: 1300;
+  background: linear-gradient(90deg, rgba(123,87,209,0.92), rgba(179,140,255,0.92));
+  z-index: 80;
 }
 
-/* Back to top */
 .back-to-top{
   position: fixed;
-  right: 18px;
-  bottom: 18px;
+  right: 16px;
+  bottom: 78px;
   width: 46px;
   height: 46px;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  font-weight: 900;
-  cursor: pointer;
-  box-shadow: 0 14px 36px rgba(0,0,0,0.22);
+  border: 1px solid rgba(179,140,255,0.35);
+  background: rgba(255,255,255,0.18);
+  color: rgba(247,242,255,0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.30);
   opacity: 0;
-  transform: translateY(12px);
   pointer-events: none;
-  transition: opacity 180ms ease, transform 180ms ease;
-  z-index: 1200;
+  transform: translateY(10px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  cursor: pointer;
+  z-index: 75;
 }
 .back-to-top.show{
   opacity: 1;
-  transform: translateY(0px);
   pointer-events: auto;
-}
-.back-to-top:focus-visible{
-  outline: 3px solid var(--ring);
-  outline-offset: 2px;
+  transform: translateY(0);
 }
 
-/* Reduce motion */
+/* -------------------------
+   Footer
+------------------------- */
+.site-footer{
+  margin-top: 24px;
+  font-size: 0.78rem;
+  text-align: center;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+
+/* -------------------------
+   Responsive
+------------------------- */
+@media (max-width: 720px){
+  .site-header-inner{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .page-wrapper{ padding: 12px 10px 32px; }
+  .card-surface{ padding: 16px 14px; }
+
+  .hero-section,
+  .profile-layout{
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tool-row{
+    grid-template-columns: 1fr;
+  }
+  .tool-label{ margin-top: 4px; }
+  .games-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce){
-  *{ scroll-behavior:auto !important; transition:none !important; }
-  .theme-toggle:hover, .chip:hover{ transform:none !important; }
-}
-
-/* ===== Fix: profile blocks on dark theme ===== */
-
-.profile-block,
-.profile-side-block {
-  background: #f3f0ff; /* 純白を避けた淡い紫グレー */
-  color: #17151f;      /* ダーク文字 */
-  border: 1px solid rgba(23, 21, 31, 0.12);
-}
-
-/* 見出し */
-.profile-block h1,
-.profile-block h2,
-.profile-block h3,
-.profile-side-block h1,
-.profile-side-block h2,
-.profile-side-block h3 {
-  color: #17151f;
-}
-
-/* 本文・リスト */
-.profile-block p,
-.profile-block li,
-.profile-side-block p,
-.profile-side-block li {
-  color: rgba(23, 21, 31, 0.78);
-}
-
-/* リンク */
-.profile-block a,
-.profile-side-block a {
-  color: #5b4bd6;
-  font-weight: 500;
-}
-
-/* アイコン・絵文字が薄くならないように */
-.profile-block svg,
-.profile-side-block svg {
-  color: inherit;
+  *{ scroll-behavior: auto !important; }
+  .btn-primary, .btn-sub, .chip, .theme-toggle{
+    transition: none !important;
+  }
+  .btn-primary:hover, .btn-sub:hover, .chip:hover, .theme-toggle:hover{
+    transform: none !important;
+  }
 }
