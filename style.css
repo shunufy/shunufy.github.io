@@ -779,3 +779,76 @@ body.modal-open{ overflow: hidden; }
     transform: none !important;
   }
 }
+
+/* ==== Blog add-on (append to style.css) ==== */
+.blog-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+@media (max-width: 980px){
+  .blog-grid{ grid-template-columns: 1fr; }
+}
+.blog-card{
+  background: var(--lightCard-bg);
+  border: 1px solid var(--lightCard-border);
+  border-radius: 22px;
+  padding: 16px 16px 14px;
+  box-shadow: 0 16px 30px rgba(15,7,32,0.14);
+  color: var(--lightCard-fg);
+}
+.blog-card-top{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.blog-date{
+  color: var(--lightCard-muted);
+  font-weight: 800;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.blog-tags{ display:flex; gap: 8px; flex-wrap:wrap; justify-content:flex-end; }
+.blog-summary{ color: var(--lightCard-muted); margin-top: 8px; }
+.blog-actions{ margin-top: 12px; display:flex; justify-content:flex-end; }
+.post-hero{
+  width: 100%;
+  max-height: 360px;
+  margin-top: 12px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid rgba(27,23,38,0.12);
+}
+.post-body{
+  line-height: 1.85;
+}
+.post-body h1, .post-body h2, .post-body h3{
+  margin: 16px 0 10px;
+}
+.post-body p{ margin: 10px 0; color: var(--lightCard-muted); }
+.post-body ul{ margin: 10px 0 10px 20px; color: var(--lightCard-muted); }
+.post-body code{
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: rgba(120, 96, 180, 0.12);
+  border: 1px solid rgba(120, 96, 180, 0.22);
+}
+.post-body pre{
+  overflow:auto;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(10,10,14,0.08);
+  border: 1px solid rgba(27,23,38,0.12);
+}
+.post-img{
+  width: 100%;
+  max-height: 560px;
+  object-fit: contain;
+  border-radius: 18px;
+  border: 1px solid rgba(27,23,38,0.12);
+  background: rgba(0,0,0,0.03);
+  margin-top: 10px;
+}
+.sp{ height: 6px; }

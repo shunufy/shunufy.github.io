@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja" data-theme-mode="auto" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>秘密のページ - shunufy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">しゅぬさんの部屋 <span>– shunufy’s tiny corner –</span></div>
+        <nav class="nav-links">
+          <a href="index.html">ホーム</a>
+          <a href="games.html">ゲーム</a>
+          <a href="about.html">ご紹介</a>
+          <a href="blog.html">ブログ</a>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Theme">
+            <span class="theme-ic">◐</span><span class="theme-tx">自動</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1>🔒 秘密のページ</h1>
+        <p>合言葉が分かれば入ってOKな、ちょっとしたギミックですわ（中身は公開記事です）。</p>
+      </div>
+
+      <section id="lockedBox" class="profile-block">
+        <h2>合言葉</h2>
+        <p style="color: var(--lightCard-muted);">ここで入力するか、ブログの検索欄に <code>秘密:合言葉</code> と打っても良いですわ。</p>
+        <form id="unlockForm" style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+          <input id="unlockInput" class="tool-input" placeholder="合言葉" style="max-width:420px;">
+          <button class="btn-primary" type="submit">▶ 入る</button>
+        </form>
+      </section>
+
+      <section id="unlockedBox" style="display:none; margin-top:16px;">
+        <section class="game-tools" style="position:static">
+          <div class="tool-row" style="grid-template-columns: 70px 1fr;">
+            <div class="tool-label">検索</div>
+            <input id="vaultSearch" class="tool-input" placeholder="タイトル・概要・タグで検索…">
+          </div>
+          <div class="tool-count" id="vaultCount">表示: 0 / 0 件</div>
+        </section>
+
+        <div id="vaultGrid" class="blog-grid" style="margin-top:16px;"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">© 2025 Shunufy. All Rights Reserved.</footer>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+  <script src="shared.js"></script>
+  <script src="md.js"></script>
+  <script src="vault.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hello-blog",
+    "title": "ブログを作りました",
+    "date": "2025-12-13",
+    "tags": [
+      "進捗",
+      "サイト"
+    ],
+    "summary": "GitHub Pagesで読めるブログを追加しました。この記事はサンプルです。",
+    "hero": "",
+    "file": "posts/hello-blog.md"
+  },
+  {
+    "id": "devlog-1",
+    "title": "開発メモ #1",
+    "date": "2025-12-13",
+    "tags": [
+      "メモ",
+      "制作"
+    ],
+    "summary": "短い独り言をブログ記事として残せるようにしました。画像も貼れます。",
+    "hero": "",
+    "file": "posts/devlog-1.md"
+  }
+]

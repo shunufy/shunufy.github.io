@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja" data-theme-mode="auto" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ブログ - shunufy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">しゅぬさんの部屋 <span>– shunufy’s tiny corner –</span></div>
+        <nav class="nav-links">
+          <a href="index.html">ホーム</a>
+          <a href="games.html">ゲーム</a>
+          <a href="about.html">ご紹介</a>
+          <a href="blog.html">ブログ</a>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Theme">
+            <span class="theme-ic">◐</span><span class="theme-tx">自動</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="card-surface">
+      <div class="page-heading">
+        <h1>📰 ブログ</h1>
+        <p>独り言・進捗・スクショなどを置く場所ですわ。記事はGitHubに置くので、誰でも読めます。</p>
+      </div>
+
+      <section class="game-tools" style="position:static">
+        <div class="tool-row">
+          <div class="tool-label">検索</div>
+          <input id="blogSearch" class="tool-input" placeholder="タイトル・概要・タグで検索…（秘密:合言葉 も可）">
+          <select id="blogSort" class="tool-select" aria-label="並び替え">
+            <option value="new" selected>並び替え：新しい順</option>
+            <option value="old">並び替え：古い順</option>
+            <option value="title">並び替え：タイトル</option>
+          </select>
+        </div>
+
+        <div id="tagChips" class="chips"></div>
+
+        <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+          <div class="tool-count" id="blogCount">表示: 0 / 0 件</div>
+          <a id="vaultHint" class="btn-sub" href="vault.html" style="display:none; text-decoration:none;">🔒 秘密のページへ</a>
+        </div>
+      </section>
+
+      <section class="games-list" style="margin-top:16px;">
+        <div id="blogGrid" class="blog-grid"></div>
+      </section>
+
+      <section class="profile-block" style="margin-top:18px;">
+        <h2>書き方</h2>
+        <p>新しい記事は <code>posts/posts.json</code> に追加し、本文は <code>posts/xxxx.md</code> を作って Git にコミットしますの。</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">© 2025 Shunufy. All Rights Reserved.</footer>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+  <script src="shared.js"></script>
+  <script src="md.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>
