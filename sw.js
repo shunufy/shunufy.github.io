@@ -1,18 +1,30 @@
 
 /* Minimal Service Worker for GitHub Pages static sites */
-const CACHE = "shunufy-cache-v3";
+// NOTE: v4 = fixes stale blog/posts.json caused by cache-first.
+const CACHE = "shunufy-cache-v4";
 const CORE = [
   "./",
   "./index.html",
   "./games.html",
   "./about.html",
+  "./blog.html",
+  "./post.html",
   "./style.css",
   "./app.js",
+  "./shared.js",
+  "./md.js",
+  "./blog.js",
+  "./post.js",
   "./offline.html",
   "./manifest.webmanifest",
   "./assets/icon-192.png",
   "./assets/icon-512.png"
 ];
+
+function isBlogDynamic(pathname) {
+  // Works both on custom domain and /repo/ style paths
+  return pathname.includes("/posts/") || pathname.includes("/secret/");
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -36,6 +48,20 @@ self.addEventListener("fetch", (event) => {
 
     // Navigation: network-first (to get latest), fallback to cached, then offline page
     if (req.mode === "navigate") {
+      try {
+        const fresh = await fetch(req);
+        const cache = await caches.open(CACHE);
+        cache.put(req, fresh.clone());
+        return fresh;
+      } catch (e) {
+        const cached = await caches.match(req);
+        return cached || caches.match("./offline.html");
+      }
+    }
+
+    // Blog content (posts.json / markdown): network-first
+    // Fixes "更新したのに前の表示になる" caused by cache-first.
+    if (url.origin === location.origin && isBlogDynamic(url.pathname)) {
       try {
         const fresh = await fetch(req);
         const cache = await caches.open(CACHE);
