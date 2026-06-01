@@ -1,0 +1,26 @@
+{
+  "name": "Example Tool",
+  "description": "A useful command-line helper.",
+  "features": [
+    "No external dependencies",
+    "Works on Windows, macOS, and Linux",
+    "Simple commands for quick demos"
+  ],
+  "requirements": [
+    "Python 3.10+"
+  ],
+  "installation": "python -m pip install -e .",
+  "usage": "example-tool --help",
+  "examples": [
+    "example-tool input.txt --output result.txt",
+    "example-tool --dry-run"
+  ],
+  "configuration": "No configuration is required.",
+  "testing": "python -m unittest discover -s tests",
+  "roadmap": [
+    "Add templates",
+    "Add GitHub Actions workflow generation"
+  ],
+  "license": "MIT"
+}
+
