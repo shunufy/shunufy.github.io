@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible problem in the app or tooling.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Search for ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Windows 11, Python 3.11, Streamlit 1.x
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+
