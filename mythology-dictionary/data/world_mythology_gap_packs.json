@@ -1,0 +1,1716 @@
+{
+  "created": [
+    {
+      "id": 2407,
+      "term": "イシュチェル",
+      "data": {
+        "term": "イシュチェル",
+        "reading": "",
+        "aliases": "Ix Chel, Ixchel",
+        "language": "Mayan, Spanish",
+        "kind": "女神/月女神",
+        "mythology": "マヤ",
+        "domains": "月, 出産, 医術, 織物, 水",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 女神, 世界神話増補パック",
+        "summary": "マヤの月・出産・医術・織物に関わる女神。若い女性と老女の両面で語られる。",
+        "description": "マヤの月・出産・医術・織物に関わる女神。若い女性と老女の両面で語られる。\n\n母性と破壊的な水の力を併せ持ち、妊娠、助産、癒やし、織物の技能と結びつく。月が満ち欠けするように、女性の身体周期や生命の変化を司る女神として理解しやすい。\n\n辞典的には、イシュチェルは「マヤ」の「女神/月女神」として引ける項目で、中心になる手がかりは「月, 出産, 医術, 織物, 水」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イツァムナー, 月, 出産, 織物, 医術」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イツァムナー, 月, 出産, 織物, 医術",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2408,
+      "term": "英雄双子",
+      "data": {
+        "term": "英雄双子",
+        "reading": "",
+        "aliases": "Hero Twins, Hunahpu and Xbalanque",
+        "language": "K'iche' Maya, Spanish",
+        "kind": "英雄/双子神",
+        "mythology": "マヤ/ポポル・ヴフ",
+        "domains": "球戯, 冥界, 変身, 復讐, 太陽と月",
+        "tags": "マヤ/ポポル・ヴフ, 実在神話, マヤ神話パック, 英雄, 世界神話増補パック",
+        "summary": "フンアフプーとイシュバランケーの双子英雄。冥界の神々を知恵と変身で打ち破る。",
+        "description": "フンアフプーとイシュバランケーの双子英雄。冥界の神々を知恵と変身で打ち破る。\n\nポポル・ヴフの中心人物で、父の死を受け継ぎ、球戯、試練、自己犠牲、復活の策略によってシバルバーの支配者を倒す。最後には天体と結びつき、死と再生をめぐるマヤ神話の代表的な物語になる。\n\n辞典的には、英雄双子は「マヤ/ポポル・ヴフ」の「英雄/双子神」として引ける項目で、中心になる手がかりは「球戯, 冥界, 変身, 復讐, 太陽と月」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「フン・フンアフプー, シバルバー, フン・カメー, ヴクブ・カキシュ, 球戯」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "フン・フンアフプー, シバルバー, フン・カメー, ヴクブ・カキシュ, 球戯",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2409,
+      "term": "フン・カメー",
+      "data": {
+        "term": "フン・カメー",
+        "reading": "",
+        "aliases": "Hun-Came, One Death",
+        "language": "K'iche' Maya",
+        "kind": "冥界神",
+        "mythology": "マヤ/ポポル・ヴフ",
+        "domains": "死, 冥界, 支配, 試練, シバルバー",
+        "tags": "マヤ/ポポル・ヴフ, 実在神話, マヤ神話パック, 冥界神, 世界神話増補パック",
+        "summary": "シバルバーの支配者の一柱。『一の死』を意味し、冥界の権威を表す。",
+        "description": "シバルバーの支配者の一柱。『一の死』を意味し、冥界の権威を表す。\n\nヴクブ・カメーと並び、シバルバーで死と病の神々を率いる。球戯の音を嫌い、フン・フンアフプーや英雄双子を冥界へ招くことで物語を動かす。死の支配者でありながら、双子に敗れることで古い冥界秩序の限界を示す。\n\n辞典的には、フン・カメーは「マヤ/ポポル・ヴフ」の「冥界神」として引ける項目で、中心になる手がかりは「死, 冥界, 支配, 試練, シバルバー」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ヴクブ・カメー, シバルバー, 英雄双子, フン・フンアフプー, 死」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ヴクブ・カメー, シバルバー, 英雄双子, フン・フンアフプー, 死",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2410,
+      "term": "ヴクブ・カキシュ",
+      "data": {
+        "term": "ヴクブ・カキシュ",
+        "reading": "",
+        "aliases": "Vucub-Caquix, Seven Macaw",
+        "language": "K'iche' Maya",
+        "kind": "怪物/偽太陽",
+        "mythology": "マヤ/ポポル・ヴフ",
+        "domains": "傲慢, 鳥, 偽太陽, 宝石, 退治",
+        "tags": "マヤ/ポポル・ヴフ, 実在神話, マヤ神話パック, 怪物, 世界神話増補パック",
+        "summary": "ポポル・ヴフに登場する巨大な鳥の怪物。太陽や月のように振る舞う傲慢な存在。",
+        "description": "ポポル・ヴフに登場する巨大な鳥の怪物。太陽や月のように振る舞う傲慢な存在。\n\n宝石の歯と金属のような目を誇り、自分こそ太陽であり月であると称する。英雄双子に退治されることで、偽りの輝きが取り除かれ、真の宇宙秩序が整う前段階が示される。\n\n辞典的には、ヴクブ・カキシュは「マヤ/ポポル・ヴフ」の「怪物/偽太陽」として引ける項目で、中心になる手がかりは「傲慢, 鳥, 偽太陽, 宝石, 退治」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「英雄双子, ポポル・ヴフ, 偽太陽, 怪鳥, 傲慢」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "英雄双子, ポポル・ヴフ, 偽太陽, 怪鳥, 傲慢",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2411,
+      "term": "バカブ",
+      "data": {
+        "term": "バカブ",
+        "reading": "",
+        "aliases": "Bacab, Bacabs",
+        "language": "Mayan, Spanish",
+        "kind": "神々/方位神",
+        "mythology": "マヤ",
+        "domains": "方位, 天空, 支柱, 色, 世界",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 方位神, 世界神話増補パック",
+        "summary": "世界の四隅で天空を支えるとされるマヤの方位神たち。",
+        "description": "世界の四隅で天空を支えるとされるマヤの方位神たち。\n\nバカブは四方位、色、天の支柱と結びつく神々で、世界が四つの方向に秩序づけられていることを示す。方位が単なる地理ではなく、色、神、暦、祭儀と一体になっているマヤ宇宙観を理解する入口になる。\n\n辞典的には、バカブは「マヤ」の「神々/方位神」として引ける項目で、中心になる手がかりは「方位, 天空, 支柱, 色, 世界」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イツァムナー, 方位, 天空, 暦, 世界樹」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イツァムナー, 方位, 天空, 暦, 世界樹",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2412,
+      "term": "ユム・カアシュ",
+      "data": {
+        "term": "ユム・カアシュ",
+        "reading": "",
+        "aliases": "Yum Kaax, Yum Ka'ax",
+        "language": "Mayan, Spanish",
+        "kind": "神/自然神",
+        "mythology": "マヤ",
+        "domains": "森, 野生, 狩猟, トウモロコシ, 守護",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 自然神, 世界神話増補パック",
+        "summary": "森や野生、狩猟に関わるマヤの神。後世にはトウモロコシ神と混同されることもある。",
+        "description": "森や野生、狩猟に関わるマヤの神。後世にはトウモロコシ神と混同されることもある。\n\nユム・カアシュは人間が利用する畑だけでなく、森や野生動物の領域を意識させる神である。農耕社会の周囲にある自然、狩猟、森の恵みと危険をまとめて読む項目として使いやすい。\n\n辞典的には、ユム・カアシュは「マヤ」の「神/自然神」として引ける項目で、中心になる手がかりは「森, 野生, 狩猟, トウモロコシ, 守護」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「チャク, トウモロコシ神, 森, 狩猟, 農耕」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "チャク, トウモロコシ神, 森, 狩猟, 農耕",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2413,
+      "term": "イリャパ",
+      "data": {
+        "term": "イリャパ",
+        "reading": "",
+        "aliases": "Illapa, Apu Illapu",
+        "language": "Quechua, Spanish",
+        "kind": "神/雷雨神",
+        "mythology": "インカ/アンデス",
+        "domains": "雷, 稲妻, 雨, 戦士, 天",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 雷神, 世界神話増補パック",
+        "summary": "雷、稲妻、雨を司るインカの神。農耕に必要な雨をもたらす。",
+        "description": "雷、稲妻、雨を司るインカの神。農耕に必要な雨をもたらす。\n\n天の川から水を汲んで雨として注ぐとも考えられ、干ばつのときには祈願の対象になった。雷鳴は武器や投石器の音として想像され、天候と戦士的な力が重なる神である。\n\n辞典的には、イリャパは「インカ/アンデス」の「神/雷雨神」として引ける項目で、中心になる手がかりは「雷, 稲妻, 雨, 戦士, 天」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インティ, パチャママ, 天の川, 雨, 農耕」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インティ, パチャママ, 天の川, 雨, 農耕",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2414,
+      "term": "スパイ",
+      "data": {
+        "term": "スパイ",
+        "reading": "",
+        "aliases": "Supay",
+        "language": "Quechua, Spanish",
+        "kind": "冥界神/霊",
+        "mythology": "インカ/アンデス",
+        "domains": "死, 冥界, 地下, 祖霊, 恐怖",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 冥界, 世界神話増補パック",
+        "summary": "アンデス世界の死者・冥界に関わる霊的存在。後世には悪魔的存在とも同一視された。",
+        "description": "アンデス世界の死者・冥界に関わる霊的存在。後世には悪魔的存在とも同一視された。\n\nスパイは地下世界や死者の領域と結びつく存在で、スペイン植民地期以後はキリスト教的な悪魔像とも重ねられた。元来は単純な悪魔というより、死者や地下の力を示す語として扱うと分かりやすい。\n\n辞典的には、スパイは「インカ/アンデス」の「冥界神/霊」として引ける項目で、中心になる手がかりは「死, 冥界, 地下, 祖霊, 恐怖」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ウク・パチャ, 祖霊, 冥界, 地下, ワカ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ウク・パチャ, 祖霊, 冥界, 地下, ワカ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2415,
+      "term": "マンコ・カパック",
+      "data": {
+        "term": "マンコ・カパック",
+        "reading": "",
+        "aliases": "Manco Capac, Manku Qhapaq",
+        "language": "Quechua, Spanish",
+        "kind": "祖先英雄/初代王",
+        "mythology": "インカ/アンデス",
+        "domains": "建国, クスコ, 太陽, 祖先, 王権",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 建国英雄, 世界神話増補パック",
+        "summary": "インカ王朝の始祖とされる文化英雄。クスコ建設と王権の起源に関わる。",
+        "description": "インカ王朝の始祖とされる文化英雄。クスコ建設と王権の起源に関わる。\n\n太陽神の子として、またはパカリタンボの洞窟から現れた祖先として語られる。妹または妻のママ・オクリョとともに文明をもたらし、黄金の杖が沈む地にクスコを築いたという伝承で知られる。\n\n辞典的には、マンコ・カパックは「インカ/アンデス」の「祖先英雄/初代王」として引ける項目で、中心になる手がかりは「建国, クスコ, 太陽, 祖先, 王権」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ママ・オクリョ, インティ, クスコ, パカリタンボ, 王権」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ママ・オクリョ, インティ, クスコ, パカリタンボ, 王権",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2416,
+      "term": "アプ",
+      "data": {
+        "term": "アプ",
+        "reading": "",
+        "aliases": "Apu",
+        "language": "Quechua, Spanish",
+        "kind": "山の神/霊",
+        "mythology": "インカ/アンデス",
+        "domains": "山, 守護, 祖霊, 地域, 高所",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 山岳信仰, 世界神話増補パック",
+        "summary": "アンデスの山々に宿る神聖な守護霊。地域共同体を見守る存在として信仰される。",
+        "description": "アンデスの山々に宿る神聖な守護霊。地域共同体を見守る存在として信仰される。\n\nアプは個別の山そのものが持つ人格的な力で、天候、水、牧畜、共同体の運命に関わる。アンデスでは山は背景ではなく、土地の支配者であり祖霊的な保護者でもある。\n\n辞典的には、アプは「インカ/アンデス」の「山の神/霊」として引ける項目で、中心になる手がかりは「山, 守護, 祖霊, 地域, 高所」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「パチャママ, ワカ, 山岳信仰, クスコ, 祖霊」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "パチャママ, ワカ, 山岳信仰, クスコ, 祖霊",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2417,
+      "term": "ワカ",
+      "data": {
+        "term": "ワカ",
+        "reading": "",
+        "aliases": "Huaca, Waka",
+        "language": "Quechua, Spanish",
+        "kind": "聖物/聖地概念",
+        "mythology": "インカ/アンデス",
+        "domains": "聖地, 石, 神殿, 祖先, 力",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 概念, 世界神話増補パック",
+        "summary": "アンデス世界で神聖な力を帯びた場所・物・存在を指す概念。",
+        "description": "アンデス世界で神聖な力を帯びた場所・物・存在を指す概念。\n\nワカは神殿だけでなく、石、泉、山、墓、祖先のミイラなどにも使われる。神聖さが特定の物体や場所に宿るという考え方で、インカの祭祀と土地支配を理解するうえで欠かせない。\n\n辞典的には、ワカは「インカ/アンデス」の「聖物/聖地概念」として引ける項目で、中心になる手がかりは「聖地, 石, 神殿, 祖先, 力」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「アプ, パチャママ, パチャカマック, コリカンチャ, 聖地」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "アプ, パチャママ, パチャカマック, コリカンチャ, 聖地",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2418,
+      "term": "コリカンチャ",
+      "data": {
+        "term": "コリカンチャ",
+        "reading": "",
+        "aliases": "Coricancha, Qorikancha",
+        "language": "Quechua, Spanish",
+        "kind": "神殿/聖地",
+        "mythology": "インカ/アンデス",
+        "domains": "太陽, 黄金, クスコ, 神殿, 国家祭儀",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 神殿, 世界神話増補パック",
+        "summary": "クスコにあった太陽神殿。インカ国家宗教の中心的な聖地。",
+        "description": "クスコにあった太陽神殿。インカ国家宗教の中心的な聖地。\n\nコリカンチャはインティを中心に月、雷、星などの神々も祀った聖域で、黄金で飾られていたと伝えられる。政治的首都クスコの中で、太陽信仰と王権の中心を可視化する建築だった。\n\n辞典的には、コリカンチャは「インカ/アンデス」の「神殿/聖地」として引ける項目で、中心になる手がかりは「太陽, 黄金, クスコ, 神殿, 国家祭儀」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インティ, ママ・キリャ, クスコ, イリャパ, 太陽」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インティ, ママ・キリャ, クスコ, イリャパ, 太陽",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2419,
+      "term": "ウク・パチャ",
+      "data": {
+        "term": "ウク・パチャ",
+        "reading": "",
+        "aliases": "Uku Pacha",
+        "language": "Quechua, Spanish",
+        "kind": "宇宙層/地下世界",
+        "mythology": "インカ/アンデス",
+        "domains": "地下, 死者, 祖先, 種, 水",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 宇宙観, 世界神話増補パック",
+        "summary": "アンデス宇宙観における下の世界。死者、祖先、種子、地下の水と関わる。",
+        "description": "アンデス宇宙観における下の世界。死者、祖先、種子、地下の水と関わる。\n\nウク・パチャは恐ろしい冥界であるだけでなく、種が眠り、水が湧き、祖先がいる地下の層でもある。上の世界ハナン・パチャ、この世界カイ・パチャと合わせて、アンデス的な三層宇宙を形作る。\n\n辞典的には、ウク・パチャは「インカ/アンデス」の「宇宙層/地下世界」として引ける項目で、中心になる手がかりは「地下, 死者, 祖先, 種, 水」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ハナン・パチャ, カイ・パチャ, スパイ, パチャママ, 祖霊」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ハナン・パチャ, カイ・パチャ, スパイ, パチャママ, 祖霊",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2420,
+      "term": "エポナ",
+      "data": {
+        "term": "エポナ",
+        "reading": "",
+        "aliases": "Epona",
+        "language": "Gaulish, Latin",
+        "kind": "女神/馬の女神",
+        "mythology": "ケルト/ガリア",
+        "domains": "馬, 豊穣, 旅, 守護, 王権",
+        "tags": "ケルト/ガリア, 実在神話, ケルト神話パック, 馬, 世界神話増補パック",
+        "summary": "馬と豊穣の女神。ガリアからローマ世界にも広く信仰が広がった。",
+        "description": "馬と豊穣の女神。ガリアからローマ世界にも広く信仰が広がった。\n\n馬は移動、戦い、地位、豊穣を示す重要な動物で、エポナは騎兵や旅人の守護とも関わった。ケルト系の神格としてはローマ帝国内で非常に広く受け入れられた点も特徴である。\n\n辞典的には、エポナは「ケルト/ガリア」の「女神/馬の女神」として引ける項目で、中心になる手がかりは「馬, 豊穣, 旅, 守護, 王権」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「リアンノン, マハ, ケルヌンノス, 馬, 旅」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "リアンノン, マハ, ケルヌンノス, 馬, 旅",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2421,
+      "term": "ダーナ神族",
+      "data": {
+        "term": "ダーナ神族",
+        "reading": "",
+        "aliases": "Tuatha De Danann, Tuatha Dé Danann",
+        "language": "Old Irish",
+        "kind": "神々/種族",
+        "mythology": "ケルト/アイルランド",
+        "domains": "神族, 魔法, 異界, 王権, 宝物",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 神族, 世界神話増補パック",
+        "summary": "アイルランド神話に登場する神々の一族。魔法と技芸に優れ、後に妖精的存在へ変わる。",
+        "description": "アイルランド神話に登場する神々の一族。魔法と技芸に優れ、後に妖精的存在へ変わる。\n\nルー、ダグザ、ヌアザ、ブリギッドらを含む神族で、四つの宝物を携えてアイルランドへ来たとされる。ミレー族に敗れた後は地下や異界へ退き、シーの民として語られる。\n\n辞典的には、ダーナ神族は「ケルト/アイルランド」の「神々/種族」として引ける項目で、中心になる手がかりは「神族, 魔法, 異界, 王権, 宝物」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ルー, ダグザ, ヌアザ, ブリギッド, シー」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ルー, ダグザ, ヌアザ, ブリギッド, シー",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2422,
+      "term": "バロール",
+      "data": {
+        "term": "バロール",
+        "reading": "",
+        "aliases": "Balor",
+        "language": "Old Irish",
+        "kind": "巨人/怪物王",
+        "mythology": "ケルト/アイルランド",
+        "domains": "邪眼, 巨人, フォモール, 破壊, 戦争",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 怪物, 世界神話増補パック",
+        "summary": "フォモール族の王。破壊的な邪眼を持つ巨人として知られる。",
+        "description": "フォモール族の王。破壊的な邪眼を持つ巨人として知られる。\n\n目を開くと軍勢を滅ぼすほどの力を持つが、予言通り孫のルーに倒される。古い破壊的な力と新しい神族の勝利を示す敵役で、ケルト神話の怪物王として分かりやすい。\n\n辞典的には、バロールは「ケルト/アイルランド」の「巨人/怪物王」として引ける項目で、中心になる手がかりは「邪眼, 巨人, フォモール, 破壊, 戦争」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ルー, フォモール, 邪眼, マグ・トゥレドの戦い, 巨人」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ルー, フォモール, 邪眼, マグ・トゥレドの戦い, 巨人",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2423,
+      "term": "バンシー",
+      "data": {
+        "term": "バンシー",
+        "reading": "",
+        "aliases": "Banshee, Bean Sidhe",
+        "language": "Irish, English",
+        "kind": "妖精/死の予兆",
+        "mythology": "ケルト/アイルランド",
+        "domains": "死, 予兆, 泣き声, 家系, 妖精",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 妖精, 世界神話増補パック",
+        "summary": "死を予告する泣き声で知られるアイルランドの妖精的存在。",
+        "description": "死を予告する泣き声で知られるアイルランドの妖精的存在。\n\nバンシーは特定の家系に付き、死が近づくと泣き叫ぶ女の霊として語られる。単なる幽霊ではなく、異界の女性が現世の死を知らせる役割を持つ。死の予兆を人間に聞こえる声として表す好例である。\n\n辞典的には、バンシーは「ケルト/アイルランド」の「妖精/死の予兆」として引ける項目で、中心になる手がかりは「死, 予兆, 泣き声, 家系, 妖精」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「シー, 死, 予兆, 異界, 妖精」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "シー, 死, 予兆, 異界, 妖精",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2424,
+      "term": "サウィン",
+      "data": {
+        "term": "サウィン",
+        "reading": "",
+        "aliases": "Samhain, Samain",
+        "language": "Old Irish",
+        "kind": "祭り/暦",
+        "mythology": "ケルト/アイルランド",
+        "domains": "冬, 死者, 境界, 収穫, 異界",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 祭り, 世界神話増補パック",
+        "summary": "ケルト暦で冬の始まりとされる祭り。死者や異界との境界が薄くなる時期。",
+        "description": "ケルト暦で冬の始まりとされる祭り。死者や異界との境界が薄くなる時期。\n\n一年を二分する重要な節目で、収穫の終わり、冬の始まり、死者や異界の存在が近づく時として語られる。後のハロウィン文化とも比較されるが、辞典ではまず境界の祭りとして押さえるとよい。\n\n辞典的には、サウィンは「ケルト/アイルランド」の「祭り/暦」として引ける項目で、中心になる手がかりは「冬, 死者, 境界, 収穫, 異界」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ベルテイン, インボルク, ルグナサド, 異界, 死者」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ベルテイン, インボルク, ルグナサド, 異界, 死者",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2425,
+      "term": "ラーダ",
+      "data": {
+        "term": "ラーダ",
+        "reading": "",
+        "aliases": "Lada",
+        "language": "Slavic",
+        "kind": "女神/民間信仰",
+        "mythology": "スラヴ",
+        "domains": "愛, 春, 結婚, 調和, 豊穣",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 女神, 伝承注意, 世界神話増補パック",
+        "summary": "愛や春、結婚と結びつけられるスラヴの女神。資料には議論もあるが民間的に有名。",
+        "description": "愛や春、結婚と結びつけられるスラヴの女神。資料には議論もあるが民間的に有名。\n\nラーダは近世以降の解釈も混じるため注意が必要だが、スラヴ的な春、恋、結婚、豊穣の象徴として広く知られる。辞典では『議論のある女神名』として扱うと安全である。\n\n辞典的には、ラーダは「スラヴ」の「女神/民間信仰」として引ける項目で、中心になる手がかりは「愛, 春, 結婚, 調和, 豊穣」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「レリャ, 春, 結婚, 豊穣, 民間信仰」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "レリャ, 春, 結婚, 豊穣, 民間信仰",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2426,
+      "term": "モラナ",
+      "data": {
+        "term": "モラナ",
+        "reading": "",
+        "aliases": "Morana, Marzanna, Morena",
+        "language": "Slavic",
+        "kind": "女神/冬と死の女神",
+        "mythology": "スラヴ",
+        "domains": "冬, 死, 春, 儀礼, 藁人形",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 冬, 死, 世界神話増補パック",
+        "summary": "冬と死を象徴する女神。春に人形を燃やしたり川へ流したりする儀礼で知られる。",
+        "description": "冬と死を象徴する女神。春に人形を燃やしたり川へ流したりする儀礼で知られる。\n\nモラナは冬の終わりに追放される存在として、季節の死と再生を表す。彼女の人形を処分する儀礼は、寒さや死を共同体から送り出し、春を迎える行為として理解できる。\n\n辞典的には、モラナは「スラヴ」の「女神/冬と死の女神」として引ける項目で、中心になる手がかりは「冬, 死, 春, 儀礼, 藁人形」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ラーダ, 春, 冬, 死, 儀礼」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ラーダ, 春, 冬, 死, 儀礼",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2427,
+      "term": "ロド",
+      "data": {
+        "term": "ロド",
+        "reading": "",
+        "aliases": "Rod",
+        "language": "Slavic",
+        "kind": "神/祖先神",
+        "mythology": "スラヴ",
+        "domains": "祖先, 誕生, 家系, 運命, 共同体",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 祖先神, 世界神話増補パック",
+        "summary": "祖先、家系、誕生に関わるとされるスラヴの神格。",
+        "description": "祖先、家系、誕生に関わるとされるスラヴの神格。\n\nロドは一族や誕生の根源を示す語として扱われ、運命を定める女神ロジャニツィとも結びつく。個人より家、血筋、共同体の連続を神聖視する概念として使える。\n\n辞典的には、ロドは「スラヴ」の「神/祖先神」として引ける項目で、中心になる手がかりは「祖先, 誕生, 家系, 運命, 共同体」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ロジャニツィ, 祖先, 家系, 誕生, 運命」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ロジャニツィ, 祖先, 家系, 誕生, 運命",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2428,
+      "term": "ゾリャ",
+      "data": {
+        "term": "ゾリャ",
+        "reading": "",
+        "aliases": "Zorya, Zoria",
+        "language": "Slavic",
+        "kind": "女神/暁と黄昏",
+        "mythology": "スラヴ",
+        "domains": "暁, 黄昏, 星, 門, 守護",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 暁, 世界神話増補パック",
+        "summary": "暁や黄昏の女神たち。太陽の門を開閉し、天の秩序を守る存在として語られる。",
+        "description": "暁や黄昏の女神たち。太陽の門を開閉し、天の秩序を守る存在として語られる。\n\n朝のゾリャと夕のゾリャのように複数で語られ、太陽の出入り、星、天上の犬や終末の封印と関わる伝承もある。境界の時間を人格化した女神として扱いやすい。\n\n辞典的には、ゾリャは「スラヴ」の「女神/暁と黄昏」として引ける項目で、中心になる手がかりは「暁, 黄昏, 星, 門, 守護」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ダジボーグ, 太陽, 暁, 黄昏, 星」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ダジボーグ, 太陽, 暁, 黄昏, 星",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2429,
+      "term": "ドモヴォイ",
+      "data": {
+        "term": "ドモヴォイ",
+        "reading": "",
+        "aliases": "Domovoi",
+        "language": "Slavic, Russian",
+        "kind": "家霊",
+        "mythology": "スラヴ/東欧民間伝承",
+        "domains": "家, 祖先, 守護, 炉, 吉凶",
+        "tags": "スラヴ/東欧民間伝承, 実在神話, スラヴ神話パック, 家霊, 世界神話増補パック",
+        "summary": "家に住む守護霊。家族の暮らしを見守り、機嫌を損ねると悪戯もする。",
+        "description": "家に住む守護霊。家族の暮らしを見守り、機嫌を損ねると悪戯もする。\n\nドモヴォイは祖先霊的な性格を持ち、家畜や家の安全を守る。家の炉や敷居の周辺に関わり、日常生活そのものが霊的な存在に見守られているという民間信仰を表す。\n\n辞典的には、ドモヴォイは「スラヴ/東欧民間伝承」の「家霊」として引ける項目で、中心になる手がかりは「家, 祖先, 守護, 炉, 吉凶」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「バンニク, レシー, 家, 祖先, 炉」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "バンニク, レシー, 家, 祖先, 炉",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2430,
+      "term": "オロドゥマレ",
+      "data": {
+        "term": "オロドゥマレ",
+        "reading": "",
+        "aliases": "Olodumare, Olorun",
+        "language": "Yoruba",
+        "kind": "至高神/創造神",
+        "mythology": "ヨルバ",
+        "domains": "創造, 天, 最高神, 生命, アシェ",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 至高神, 世界神話増補パック",
+        "summary": "ヨルバ信仰の至高神。世界と生命の根源であり、オリシャたちを超える存在。",
+        "description": "ヨルバ信仰の至高神。世界と生命の根源であり、オリシャたちを超える存在。\n\n日常の祭祀では個別のオリシャが近い存在として働くが、オロドゥマレはその背後にある究極の創造者として位置づけられる。神聖な力アシェの源として理解すると分かりやすい。\n\n辞典的には、オロドゥマレは「ヨルバ」の「至高神/創造神」として引ける項目で、中心になる手がかりは「創造, 天, 最高神, 生命, アシェ」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オリシャ, オバタラ, エシュ, アシェ, 天」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オリシャ, オバタラ, エシュ, アシェ, 天",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2431,
+      "term": "オヤ",
+      "data": {
+        "term": "オヤ",
+        "reading": "",
+        "aliases": "Oya, Oiá",
+        "language": "Yoruba",
+        "kind": "オリシャ/嵐の女神",
+        "mythology": "ヨルバ",
+        "domains": "嵐, 風, 変化, 墓地, 市場",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, オリシャ, 世界神話増補パック",
+        "summary": "嵐、風、急激な変化を司るオリシャ。墓地や死者の門とも関わる。",
+        "description": "嵐、風、急激な変化を司るオリシャ。墓地や死者の門とも関わる。\n\nオヤは竜巻や強風のように物事を一気に変える力を持つ。シャンゴの妻として雷雨の力と結びつき、死者の領域の門番的な性格も持つため、変化と境界の女神として扱いやすい。\n\n辞典的には、オヤは「ヨルバ」の「オリシャ/嵐の女神」として引ける項目で、中心になる手がかりは「嵐, 風, 変化, 墓地, 市場」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「シャンゴ, オシュン, 墓地, 嵐, 風」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "シャンゴ, オシュン, 墓地, 嵐, 風",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2432,
+      "term": "オルンミラ",
+      "data": {
+        "term": "オルンミラ",
+        "reading": "",
+        "aliases": "Orunmila, Orunmila",
+        "language": "Yoruba",
+        "kind": "オリシャ/占 divination神",
+        "mythology": "ヨルバ",
+        "domains": "占い, 知恵, 運命, イファ, 記憶",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 占い, 世界神話増補パック",
+        "summary": "イファ占いと知恵を司るオリシャ。運命を読む神として重要。",
+        "description": "イファ占いと知恵を司るオリシャ。運命を読む神として重要。\n\nオルンミラは世界創造の秘密や人間の運命を知る神で、司祭ババラウォが行うイファ占いの中心にいる。神話では助言者、記憶の保持者、正しい選択への案内役として機能する。\n\n辞典的には、オルンミラは「ヨルバ」の「オリシャ/占 divination神」として引ける項目で、中心になる手がかりは「占い, 知恵, 運命, イファ, 記憶」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イファ, エシュ, オリ, 運命, 占い」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イファ, エシュ, オリ, 運命, 占い",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2433,
+      "term": "イファ",
+      "data": {
+        "term": "イファ",
+        "reading": "",
+        "aliases": "Ifa, Ifá",
+        "language": "Yoruba",
+        "kind": "占い体系/聖知",
+        "mythology": "ヨルバ",
+        "domains": "占い, 詩, 運命, オドゥ, 知恵",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 占い体系, 世界神話増補パック",
+        "summary": "ヨルバの占いと聖なる知識の体系。オルンミラの知恵を伝える。",
+        "description": "ヨルバの占いと聖なる知識の体系。オルンミラの知恵を伝える。\n\nイファは単なる占いではなく、膨大な詩句と物語を通じて運命、倫理、儀礼、処方を示す知識体系である。エシュが伝達を助け、ババラウォが徴を読み解く。\n\n辞典的には、イファは「ヨルバ」の「占い体系/聖知」として引ける項目で、中心になる手がかりは「占い, 詩, 運命, オドゥ, 知恵」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オルンミラ, エシュ, オドゥ, 運命, 占い」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オルンミラ, エシュ, オドゥ, 運命, 占い",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2434,
+      "term": "アシェ",
+      "data": {
+        "term": "アシェ",
+        "reading": "",
+        "aliases": "Ashe, Ase, Àṣẹ",
+        "language": "Yoruba",
+        "kind": "概念/神聖力",
+        "mythology": "ヨルバ",
+        "domains": "力, 言葉, 実現, 祝福, 神聖",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 概念, 世界神話増補パック",
+        "summary": "物事を実現させる神聖な力。言葉、祈り、儀礼に働く根本概念。",
+        "description": "物事を実現させる神聖な力。言葉、祈り、儀礼に働く根本概念。\n\nアシェは神々、人間、自然、言葉、供物に宿り、発せられた言葉や儀礼を現実化する力として理解される。ヨルバ世界観の『効力』そのものを表す重要語である。\n\n辞典的には、アシェは「ヨルバ」の「概念/神聖力」として引ける項目で、中心になる手がかりは「力, 言葉, 実現, 祝福, 神聖」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オロドゥマレ, オリシャ, イファ, 言葉, 儀礼」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オロドゥマレ, オリシャ, イファ, 言葉, 儀礼",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2435,
+      "term": "オリ",
+      "data": {
+        "term": "オリ",
+        "reading": "",
+        "aliases": "Ori",
+        "language": "Yoruba",
+        "kind": "概念/内なる頭",
+        "mythology": "ヨルバ",
+        "domains": "運命, 頭, 自己, 霊, 選択",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 概念, 世界神話増補パック",
+        "summary": "個人の運命や内的な自己を表す概念。『頭』として象徴される。",
+        "description": "個人の運命や内的な自己を表す概念。『頭』として象徴される。\n\nオリは人がこの世に来る前に選ぶ運命や内なる導きを示す。外の神々に祈るだけでなく、自分自身のオリを整え敬うことが重要とされるため、人格と運命の核として使える。\n\n辞典的には、オリは「ヨルバ」の「概念/内なる頭」として引ける項目で、中心になる手がかりは「運命, 頭, 自己, 霊, 選択」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イファ, オルンミラ, 運命, 頭, 自己」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イファ, オルンミラ, 運命, 頭, 自己",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2436,
+      "term": "ヒイアカ",
+      "data": {
+        "term": "ヒイアカ",
+        "reading": "",
+        "aliases": "Hiiaka, Hiʻiaka",
+        "language": "Hawaiian",
+        "kind": "女神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "フラ, 癒やし, 森, 姉妹, 旅",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 女神, 世界神話増補パック",
+        "summary": "ペレの妹として知られる女神。フラ、癒やし、森の再生と結びつく。",
+        "description": "ペレの妹として知られる女神。フラ、癒やし、森の再生と結びつく。\n\nヒイアカはペレの依頼で旅をする物語が有名で、忠誠、姉妹関係、約束の破綻、癒やしの力が重なる。荒々しい火山のペレに対し、緑や回復の側面を担う。\n\n辞典的には、ヒイアカは「ハワイ/ポリネシア」の「女神」として引ける項目で、中心になる手がかりは「フラ, 癒やし, 森, 姉妹, 旅」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ペレ, フラ, 癒やし, 森, ハワイ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ペレ, フラ, 癒やし, 森, ハワイ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2437,
+      "term": "カーネ",
+      "data": {
+        "term": "カーネ",
+        "reading": "",
+        "aliases": "Kane, Kāne",
+        "language": "Hawaiian",
+        "kind": "神/創造神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "創造, 生命, 水, 光, 森",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 創造神, 世界神話増補パック",
+        "summary": "ハワイ神話の主要な創造神。生命、淡水、光と結びつく。",
+        "description": "ハワイ神話の主要な創造神。生命、淡水、光と結びつく。\n\nカーネはカナロア、クー、ロノと並ぶ大神の一柱で、人間の創造や生命の水と関わる。海の彼方や森の奥の聖なる水源など、生命を発する場所を象徴する。\n\n辞典的には、カーネは「ハワイ/ポリネシア」の「神/創造神」として引ける項目で、中心になる手がかりは「創造, 生命, 水, 光, 森」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「カナロア, クー, ロノ, 生命, 淡水」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "カナロア, クー, ロノ, 生命, 淡水",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2438,
+      "term": "カナロア",
+      "data": {
+        "term": "カナロア",
+        "reading": "",
+        "aliases": "Kanaloa",
+        "language": "Hawaiian",
+        "kind": "神/海神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "海, 深海, イカ, 航海, 境界",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 海神, 世界神話増補パック",
+        "summary": "ハワイ神話の海や深淵に関わる神。カーネと対になることも多い。",
+        "description": "ハワイ神話の海や深淵に関わる神。カーネと対になることも多い。\n\nカナロアは大洋の深さ、航海、タコやイカの姿と結びつく。キリスト教化後に悪魔的に解釈された場合もあるが、元来は海の広がりと未知の力を示す大神として読むべきである。\n\n辞典的には、カナロアは「ハワイ/ポリネシア」の「神/海神」として引ける項目で、中心になる手がかりは「海, 深海, イカ, 航海, 境界」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「カーネ, タンガロア, 海, 航海, 深海」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "カーネ, タンガロア, 海, 航海, 深海",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2439,
+      "term": "クー",
+      "data": {
+        "term": "クー",
+        "reading": "",
+        "aliases": "Ku, Kū",
+        "language": "Hawaiian",
+        "kind": "神/戦争神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "戦争, 男性性, 漁業, 森, 国家祭儀",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 戦争神, 世界神話増補パック",
+        "summary": "ハワイ神話の戦争と力の神。王権や男性的な活動とも結びつく。",
+        "description": "ハワイ神話の戦争と力の神。王権や男性的な活動とも結びつく。\n\nクーは戦争神として有名だが、漁業や森林伐採など力強い行為にも関わる。国家的な祭儀では厳しい側面を持ち、豊穣のロノとは季節的に対照をなす。\n\n辞典的には、クーは「ハワイ/ポリネシア」の「神/戦争神」として引ける項目で、中心になる手がかりは「戦争, 男性性, 漁業, 森, 国家祭儀」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ロノ, カーネ, 戦争, 王権, ハワイ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ロノ, カーネ, 戦争, 王権, ハワイ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2440,
+      "term": "ロノ",
+      "data": {
+        "term": "ロノ",
+        "reading": "",
+        "aliases": "Lono",
+        "language": "Hawaiian",
+        "kind": "神/豊穣神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "雨, 農耕, 平和, 祭り, 雲",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 豊穣神, 世界神話増補パック",
+        "summary": "ハワイ神話の農耕、雨、平和、豊穣の神。マカヒキ祭と関わる。",
+        "description": "ハワイ神話の農耕、雨、平和、豊穣の神。マカヒキ祭と関わる。\n\nロノは戦争のクーと対照的に、収穫、休戦、遊戯、雨の恵みをもたらす神である。マカヒキの季節には戦いが禁じられ、豊穣と共同体の更新が祝われた。\n\n辞典的には、ロノは「ハワイ/ポリネシア」の「神/豊穣神」として引ける項目で、中心になる手がかりは「雨, 農耕, 平和, 祭り, 雲」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「クー, マカヒキ, 雨, 農耕, ハワイ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "クー, マカヒキ, 雨, 農耕, ハワイ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2441,
+      "term": "ランギ",
+      "data": {
+        "term": "ランギ",
+        "reading": "",
+        "aliases": "Rangi, Ranginui",
+        "language": "Maori",
+        "kind": "神/天空父",
+        "mythology": "マオリ/ポリネシア",
+        "domains": "天空, 父, 暗闇, 分離, 創造",
+        "tags": "マオリ/ポリネシア, 実在神話, ポリネシア神話パック, マオリ, 天空父, 世界神話増補パック",
+        "summary": "マオリ神話の天空父。大地母パパと抱き合い、子らが世界を開く前の暗闇を作っていた。",
+        "description": "マオリ神話の天空父。大地母パパと抱き合い、子らが世界を開く前の暗闇を作っていた。\n\nランギとパパの分離は、世界に光と空間が生まれる創世神話の中心である。離された後も雨はランギの涙とされ、天と地の別れの悲しみが自然現象として語られる。\n\n辞典的には、ランギは「マオリ/ポリネシア」の「神/天空父」として引ける項目で、中心になる手がかりは「天空, 父, 暗闇, 分離, 創造」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「パパ, タネ, タウィリマテア, 創造, 天空」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "パパ, タネ, タウィリマテア, 創造, 天空",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2442,
+      "term": "パパ",
+      "data": {
+        "term": "パパ",
+        "reading": "",
+        "aliases": "Papa, Papatuanuku",
+        "language": "Maori",
+        "kind": "女神/大地母",
+        "mythology": "マオリ/ポリネシア",
+        "domains": "大地, 母, 創造, 暗闇, 生命",
+        "tags": "マオリ/ポリネシア, 実在神話, ポリネシア神話パック, マオリ, 大地母, 世界神話増補パック",
+        "summary": "マオリ神話の大地母。天空父ランギとともに世界の始まりを形作る。",
+        "description": "マオリ神話の大地母。天空父ランギとともに世界の始まりを形作る。\n\nパパはすべての生命を抱える大地であり、ランギとの密着から子神たちが生まれた。天と地が分かれた後、大地は人間と神々の暮らす場になり、母なる土地として神聖視される。\n\n辞典的には、パパは「マオリ/ポリネシア」の「女神/大地母」として引ける項目で、中心になる手がかりは「大地, 母, 創造, 暗闇, 生命」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ランギ, タネ, 大地, 創造, 母神」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ランギ, タネ, 大地, 創造, 母神",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2443,
+      "term": "タウィリマテア",
+      "data": {
+        "term": "タウィリマテア",
+        "reading": "",
+        "aliases": "Tawhirimatea, Tāwhirimātea",
+        "language": "Maori",
+        "kind": "神/嵐神",
+        "mythology": "マオリ/ポリネシア",
+        "domains": "嵐, 風, 雲, 怒り, 天候",
+        "tags": "マオリ/ポリネシア, 実在神話, ポリネシア神話パック, マオリ, 嵐神, 世界神話増補パック",
+        "summary": "マオリ神話の風と嵐の神。天と地を引き離した兄弟たちに怒る。",
+        "description": "マオリ神話の風と嵐の神。天と地を引き離した兄弟たちに怒る。\n\nランギとパパの分離に反対し、父天空に味方した神である。風、嵐、雲、雷で兄弟たちを攻撃するため、天候の荒々しさが家族神話の対立として表現される。\n\n辞典的には、タウィリマテアは「マオリ/ポリネシア」の「神/嵐神」として引ける項目で、中心になる手がかりは「嵐, 風, 雲, 怒り, 天候」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ランギ, パパ, タネ, 風, 嵐」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ランギ, パパ, タネ, 風, 嵐",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2444,
+      "term": "ロンゴ",
+      "data": {
+        "term": "ロンゴ",
+        "reading": "",
+        "aliases": "Rongo, Rongo-ma-Tane",
+        "language": "Maori",
+        "kind": "神/農耕神",
+        "mythology": "マオリ/ポリネシア",
+        "domains": "農耕, クマラ, 平和, 食物, 栽培",
+        "tags": "マオリ/ポリネシア, 実在神話, ポリネシア神話パック, マオリ, 農耕神, 世界神話増補パック",
+        "summary": "マオリ神話の農耕と栽培作物の神。特にクマラと関わる。",
+        "description": "マオリ神話の農耕と栽培作物の神。特にクマラと関わる。\n\nロンゴは戦いよりも栽培、食物、平和な生活の神で、タネやタンガロアとともに人間の暮らしを支える。農耕が神話的な秩序の中に置かれることを示す。\n\n辞典的には、ロンゴは「マオリ/ポリネシア」の「神/農耕神」として引ける項目で、中心になる手がかりは「農耕, クマラ, 平和, 食物, 栽培」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「クマラ, タネ, タンガロア, 農耕, 平和」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "クマラ, タネ, タンガロア, 農耕, 平和",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2445,
+      "term": "ドゥムジ",
+      "data": {
+        "term": "ドゥムジ",
+        "reading": "",
+        "aliases": "Dumuzi, Tammuz",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/牧畜と植物の神",
+        "mythology": "メソポタミア",
+        "domains": "牧畜, 植物, 死と再生, 恋人, 季節",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 死と再生, 世界神話増補パック",
+        "summary": "イナンナの配偶神として知られる牧畜・植物神。死と季節的な再生に関わる。",
+        "description": "イナンナの配偶神として知られる牧畜・植物神。死と季節的な再生に関わる。\n\nイナンナの冥界下降後、身代わりとして冥界へ送られる物語が有名。嘆きの儀礼や季節の枯死と再生と結びつき、後のタンムズ信仰にもつながる。\n\n辞典的には、ドゥムジは「メソポタミア」の「神/牧畜と植物の神」として引ける項目で、中心になる手がかりは「牧畜, 植物, 死と再生, 恋人, 季節」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イナンナ, ゲシュティンアンナ, 冥界下降, 牧畜, 季節」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イナンナ, ゲシュティンアンナ, 冥界下降, 牧畜, 季節",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2446,
+      "term": "ニンフルサグ",
+      "data": {
+        "term": "ニンフルサグ",
+        "reading": "",
+        "aliases": "Ninhursag, Ninmah, Nintu",
+        "language": "Sumerian, Akkadian",
+        "kind": "女神/母神",
+        "mythology": "メソポタミア",
+        "domains": "大地, 母, 出産, 山, 創造",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 母神, 世界神話増補パック",
+        "summary": "大地と出産、創造を司る母神。神々や人間の誕生に関わる。",
+        "description": "大地と出産、創造を司る母神。神々や人間の誕生に関わる。\n\n『山の女主人』を意味する名を持ち、エンキとの神話や人間創造の文脈で重要な女神である。母なる大地、産む力、生命の形成を代表する。\n\n辞典的には、ニンフルサグは「メソポタミア」の「女神/母神」として引ける項目で、中心になる手がかりは「大地, 母, 出産, 山, 創造」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エンキ, ディルムン, 人間創造, 大地, 母神」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エンキ, ディルムン, 人間創造, 大地, 母神",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2447,
+      "term": "ニンリル",
+      "data": {
+        "term": "ニンリル",
+        "reading": "",
+        "aliases": "Ninlil",
+        "language": "Sumerian, Akkadian",
+        "kind": "女神/風の女神",
+        "mythology": "メソポタミア",
+        "domains": "風, 王妃, ニップル, 母性, 冥界",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 女神, 世界神話増補パック",
+        "summary": "エンリルの配偶女神。風と王妃的な地位、神々の母性を帯びる。",
+        "description": "エンリルの配偶女神。風と王妃的な地位、神々の母性を帯びる。\n\nエンリルとの神話では、彼の追放と冥界への下降に同行し、ナンナなどの神々を生む。主神の配偶として、都市と神統譜の安定を支える女神である。\n\n辞典的には、ニンリルは「メソポタミア」の「女神/風の女神」として引ける項目で、中心になる手がかりは「風, 王妃, ニップル, 母性, 冥界」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エンリル, ナンナ, ニップル, 風, 神統譜」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エンリル, ナンナ, ニップル, 風, 神統譜",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2448,
+      "term": "ニンギシュジダ",
+      "data": {
+        "term": "ニンギシュジダ",
+        "reading": "",
+        "aliases": "Ningishzida",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/冥界と植物の神",
+        "mythology": "メソポタミア",
+        "domains": "蛇, 冥界, 植物, 門番, 再生",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 冥界, 世界神話増補パック",
+        "summary": "蛇と植物、冥界に関わる神。地下の再生力を象徴する。",
+        "description": "蛇と植物、冥界に関わる神。地下の再生力を象徴する。\n\nニンギシュジダは冥界の門番的な役割や、植物の芽吹き、蛇の象徴と結びつく。死の領域と生命の再生が同じ地下から来るという感覚を示す神である。\n\n辞典的には、ニンギシュジダは「メソポタミア」の「神/冥界と植物の神」として引ける項目で、中心になる手がかりは「蛇, 冥界, 植物, 門番, 再生」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ドゥムジ, エレシュキガル, 蛇, 冥界, 植物」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ドゥムジ, エレシュキガル, 蛇, 冥界, 植物",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    }
+  ],
+  "updated": [
+    {
+      "id": 1803,
+      "term": "イツァムナー",
+      "data": {
+        "term": "イツァムナー",
+        "reading": "",
+        "aliases": "Itzamna, Itzamná",
+        "language": "Mayan, Spanish",
+        "kind": "神/創造神",
+        "mythology": "マヤ",
+        "domains": "創造, 天, 知恵, 文字, 祭司",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 創造神, 世界神話増補パック",
+        "summary": "マヤ神話の高位神・創造神。知恵、文字、祭司的秩序と結びつく老いた神として知られる。",
+        "description": "マヤ神話の高位神・創造神。知恵、文字、祭司的秩序と結びつく老いた神として知られる。\n\n天上の父神、文化を整える神、文字や暦の知識を授ける神として説明されることが多い。雨や月、太陽の神々と並び、マヤ世界の知的・祭司的な中心を担う。\n\n辞典的には、イツァムナーは「マヤ」の「神/創造神」として引ける項目で、中心になる手がかりは「創造, 天, 知恵, 文字, 祭司」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ククルカン, チャク, イシュチェル, キニチ・アハウ, バカブ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ククルカン, チャク, イシュチェル, キニチ・アハウ, バカブ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1807,
+      "term": "ククルカン",
+      "data": {
+        "term": "ククルカン",
+        "reading": "",
+        "aliases": "Kukulkan, Kukulcan, Feathered Serpent",
+        "language": "Mayan, Spanish",
+        "kind": "神/羽毛の蛇",
+        "mythology": "マヤ",
+        "domains": "羽毛の蛇, 風, 王権, 知恵, 天",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 羽毛の蛇, 世界神話増補パック",
+        "summary": "マヤ世界で語られる羽毛の蛇の神。アステカのケツァルコアトルに近い性格を持つ。",
+        "description": "マヤ世界で語られる羽毛の蛇の神。アステカのケツァルコアトルに近い性格を持つ。\n\nユカタンのマヤ、とくにチチェン・イッツァの階段ピラミッドと結びつき、王権、風、天上の力、文化英雄的な性格を帯びる。蛇でありながら羽を持つため、地上と天空をつなぐ象徴になる。\n\n辞典的には、ククルカンは「マヤ」の「神/羽毛の蛇」として引ける項目で、中心になる手がかりは「羽毛の蛇, 風, 王権, 知恵, 天」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ケツァルコアトル, チチェン・イッツァ, イツァムナー, 風, 王権」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ケツァルコアトル, チチェン・イッツァ, イツァムナー, 風, 王権",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1810,
+      "term": "チャク",
+      "data": {
+        "term": "チャク",
+        "reading": "",
+        "aliases": "Chaac, Chac, Chaahk",
+        "language": "Mayan, Spanish",
+        "kind": "神/雨神",
+        "mythology": "マヤ",
+        "domains": "雨, 雷, 稲妻, 農耕, セノーテ",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 雨神, 世界神話増補パック",
+        "summary": "マヤ神話の雨と雷の神。鼻の長い姿で表され、農耕に不可欠な水をもたらす。",
+        "description": "マヤ神話の雨と雷の神。鼻の長い姿で表され、農耕に不可欠な水をもたらす。\n\nチャクは一柱であると同時に方位ごとの複数神としても扱われる。稲妻の斧で雲を割って雨を降らせる存在で、乾季と雨季の緊張、トウモロコシ栽培、聖なる泉やセノーテと深く関わる。\n\n辞典的には、チャクは「マヤ」の「神/雨神」として引ける項目で、中心になる手がかりは「雨, 雷, 稲妻, 農耕, セノーテ」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イツァムナー, トウモロコシ神, セノーテ, 雨, 農耕」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イツァムナー, トウモロコシ神, セノーテ, 雨, 農耕",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1813,
+      "term": "フン・フンアフプー",
+      "data": {
+        "term": "フン・フンアフプー",
+        "reading": "",
+        "aliases": "Hun Hunahpu, One Hunahpu",
+        "language": "K'iche' Maya, Spanish",
+        "kind": "神話人物/父神",
+        "mythology": "マヤ/ポポル・ヴフ",
+        "domains": "球戯, 死, トウモロコシ, 冥界, 復活",
+        "tags": "マヤ/ポポル・ヴフ, 実在神話, マヤ神話パック, ポポル・ヴフ, 世界神話増補パック",
+        "summary": "ポポル・ヴフに登場する英雄双子の父。冥界シバルバーで殺され、後の再生神話につながる。",
+        "description": "ポポル・ヴフに登場する英雄双子の父。冥界シバルバーで殺され、後の再生神話につながる。\n\n兄弟で球戯をして冥界の神々を怒らせ、シバルバーへ招かれて敗北する。切られた首が木に掛けられ、そこから英雄双子の誕生へつながるため、死んだ父でありながら再生の種になる人物である。\n\n辞典的には、フン・フンアフプーは「マヤ/ポポル・ヴフ」の「神話人物/父神」として引ける項目で、中心になる手がかりは「球戯, 死, トウモロコシ, 冥界, 復活」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「英雄双子, シバルバー, フン・カメー, トウモロコシ神, ポポル・ヴフ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "英雄双子, シバルバー, フン・カメー, トウモロコシ神, ポポル・ヴフ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 264,
+      "term": "シバルバー",
+      "data": {
+        "term": "シバルバー",
+        "reading": "",
+        "aliases": "Xibalba",
+        "language": "K'iche' Maya",
+        "kind": "冥界/死後世界",
+        "mythology": "マヤ/ポポル・ヴフ",
+        "domains": "冥界, 試練, 死, 病, 球戯",
+        "tags": "マヤ/ポポル・ヴフ, 実在神話, マヤ神話パック, 冥界, 世界神話増補パック",
+        "summary": "ポポル・ヴフに登場する冥界。死と病の支配者たちがいる試練の領域。",
+        "description": "ポポル・ヴフに登場する冥界。死と病の支配者たちがいる試練の領域。\n\nシバルバーは暗い地下世界で、訪れた者に恐怖の館、刃物の館、寒さ、火、試練を課す。単なる死後世界ではなく、英雄が知恵で突破し、神々の権威を覆す舞台として機能する。\n\n辞典的には、シバルバーは「マヤ/ポポル・ヴフ」の「冥界/死後世界」として引ける項目で、中心になる手がかりは「冥界, 試練, 死, 病, 球戯」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「英雄双子, フン・フンアフプー, フン・カメー, ヴクブ・カメー, 冥界」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "英雄双子, フン・フンアフプー, フン・カメー, ヴクブ・カメー, 冥界",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1806,
+      "term": "キニチ・アハウ",
+      "data": {
+        "term": "キニチ・アハウ",
+        "reading": "",
+        "aliases": "Kinich Ahau, Kinich Ajaw",
+        "language": "Mayan, Spanish",
+        "kind": "神/太陽神",
+        "mythology": "マヤ",
+        "domains": "太陽, 昼, 王権, ジャガー, 熱",
+        "tags": "マヤ, 実在神話, マヤ神話パック, 太陽神, 世界神話増補パック",
+        "summary": "マヤの太陽神。昼の太陽、王権、熱の力を表す。",
+        "description": "マヤの太陽神。昼の太陽、王権、熱の力を表す。\n\nしばしば王権と結びつき、太陽の力が支配者の正統性を支える。夜にはジャガー的な側面を帯びるとも考えられ、昼夜を渡る太陽の運行が神格の中に反映される。\n\n辞典的には、キニチ・アハウは「マヤ」の「神/太陽神」として引ける項目で、中心になる手がかりは「太陽, 昼, 王権, ジャガー, 熱」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イツァムナー, 太陽, ジャガー, 王権, 暦」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イツァムナー, 太陽, ジャガー, 王権, 暦",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1483,
+      "term": "ビラコチャ",
+      "data": {
+        "term": "ビラコチャ",
+        "reading": "",
+        "aliases": "Viracocha, Wiraqucha",
+        "language": "Quechua, Spanish",
+        "kind": "神/創造神",
+        "mythology": "インカ/アンデス",
+        "domains": "創造, 海, 文化英雄, 旅, 天",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 創造神, 世界神話増補パック",
+        "summary": "インカとアンデス世界で語られる創造神。世界と人間を作り、文化を授ける存在。",
+        "description": "インカとアンデス世界で語られる創造神。世界と人間を作り、文化を授ける存在。\n\n大地、人間、動物を作った後、各地を旅して技術や秩序を教えた文化英雄としても語られる。海へ去る物語もあり、創造神でありながら放浪する教師のような性格を持つ。\n\n辞典的には、ビラコチャは「インカ/アンデス」の「神/創造神」として引ける項目で、中心になる手がかりは「創造, 海, 文化英雄, 旅, 天」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インティ, パチャママ, パチャカマック, クスコ, ティティカカ湖」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インティ, パチャママ, パチャカマック, クスコ, ティティカカ湖",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1224,
+      "term": "インティ",
+      "data": {
+        "term": "インティ",
+        "reading": "",
+        "aliases": "Inti",
+        "language": "Quechua, Spanish",
+        "kind": "神/太陽神",
+        "mythology": "インカ/アンデス",
+        "domains": "太陽, 王権, 農耕, 祖先, 黄金",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 太陽神, 世界神話増補パック",
+        "summary": "インカ国家の中心的な太陽神。皇帝家の祖先神としても重視された。",
+        "description": "インカ国家の中心的な太陽神。皇帝家の祖先神としても重視された。\n\n太陽の熱は作物を育て、王権の正統性を照らす力とされた。クスコのコリカンチャでは特に重要視され、インカ皇帝はインティの子孫として自らの支配を説明した。\n\n辞典的には、インティは「インカ/アンデス」の「神/太陽神」として引ける項目で、中心になる手がかりは「太陽, 王権, 農耕, 祖先, 黄金」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ビラコチャ, ママ・キリャ, コリカンチャ, クスコ, マンコ・カパック」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ビラコチャ, ママ・キリャ, コリカンチャ, クスコ, マンコ・カパック",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1080,
+      "term": "ママ・キリャ",
+      "data": {
+        "term": "ママ・キリャ",
+        "reading": "",
+        "aliases": "Mama Quilla, Mama Killa",
+        "language": "Quechua, Spanish",
+        "kind": "女神/月神",
+        "mythology": "インカ/アンデス",
+        "domains": "月, 暦, 女性, 銀, 祭り",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 月神, 世界神話増補パック",
+        "summary": "インカの月の女神。女性の周期や祭儀暦、銀と結びつく。",
+        "description": "インカの月の女神。女性の周期や祭儀暦、銀と結びつく。\n\n太陽神インティの妻または妹として語られ、月の満ち欠けによって祭りや時間を測る役割を持つ。銀は月の涙と考えられ、女性の守護や結婚とも関わる。\n\n辞典的には、ママ・キリャは「インカ/アンデス」の「女神/月神」として引ける項目で、中心になる手がかりは「月, 暦, 女性, 銀, 祭り」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インティ, コリカンチャ, 暦, 銀, 女性」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インティ, コリカンチャ, 暦, 銀, 女性",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1289,
+      "term": "パチャママ",
+      "data": {
+        "term": "パチャママ",
+        "reading": "",
+        "aliases": "Pachamama, Mama Pacha",
+        "language": "Quechua, Spanish",
+        "kind": "女神/大地母神",
+        "mythology": "インカ/アンデス",
+        "domains": "大地, 豊穣, 農耕, 山, 生命",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 大地母神, 世界神話増補パック",
+        "summary": "アンデス世界の大地母神。作物、山、生命を養う地面そのものの神聖さを表す。",
+        "description": "アンデス世界の大地母神。作物、山、生命を養う地面そのものの神聖さを表す。\n\nパチャは単なる土地ではなく、時空や世界の広がりも含む概念で、パチャママは人間を養う大地の母である。農地への供物や山岳信仰と結びつき、現代アンデス文化にも強く残る。\n\n辞典的には、パチャママは「インカ/アンデス」の「女神/大地母神」として引ける項目で、中心になる手がかりは「大地, 豊穣, 農耕, 山, 生命」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インティ, アプ, ワカ, 農耕, 山」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インティ, アプ, ワカ, 農耕, 山",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1657,
+      "term": "ママ・コチャ",
+      "data": {
+        "term": "ママ・コチャ",
+        "reading": "",
+        "aliases": "Mama Cocha, Mama Qocha",
+        "language": "Quechua, Spanish",
+        "kind": "女神/海の母",
+        "mythology": "インカ/アンデス",
+        "domains": "海, 湖, 水, 漁業, 母性",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 水神, 世界神話増補パック",
+        "summary": "海や大きな水を司る女神。漁師や水辺の暮らしと関わる。",
+        "description": "海や大きな水を司る女神。漁師や水辺の暮らしと関わる。\n\n山岳帝国のイメージが強いインカでも、海や湖は神聖な水の領域だった。ママ・コチャは魚、航海、水の恵み、そして水の危険をまとめる母神として扱える。\n\n辞典的には、ママ・コチャは「インカ/アンデス」の「女神/海の母」として引ける項目で、中心になる手がかりは「海, 湖, 水, 漁業, 母性」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「パチャママ, ティティカカ湖, 水, 漁業, 海」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "パチャママ, ティティカカ湖, 水, 漁業, 海",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 932,
+      "term": "パチャカマック",
+      "data": {
+        "term": "パチャカマック",
+        "reading": "",
+        "aliases": "Pachacamac, Pacha Kamaq",
+        "language": "Quechua, Spanish",
+        "kind": "神/創造神・神託神",
+        "mythology": "インカ/アンデス",
+        "domains": "創造, 地震, 神託, 海岸, 聖地",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 神託, 世界神話増補パック",
+        "summary": "アンデス海岸部で信仰された創造神・神託神。地震や聖地パチャカマックと結びつく。",
+        "description": "アンデス海岸部で信仰された創造神・神託神。地震や聖地パチャカマックと結びつく。\n\nインカ以前から重要だった神で、後にインカ国家の宗教体系にも取り込まれた。リマ近郊の神殿都市パチャカマックは神託の地として知られ、遠方から巡礼者を集めた。\n\n辞典的には、パチャカマックは「インカ/アンデス」の「神/創造神・神託神」として引ける項目で、中心になる手がかりは「創造, 地震, 神託, 海岸, 聖地」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ビラコチャ, パチャママ, ワカ, 神託, 地震」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ビラコチャ, パチャママ, ワカ, 神託, 地震",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1498,
+      "term": "ママ・オクリョ",
+      "data": {
+        "term": "ママ・オクリョ",
+        "reading": "",
+        "aliases": "Mama Ocllo, Mama Uqllu",
+        "language": "Quechua, Spanish",
+        "kind": "祖先女神/文化英雄",
+        "mythology": "インカ/アンデス",
+        "domains": "建国, 織物, 女性, クスコ, 祖先",
+        "tags": "インカ/アンデス, 実在神話, インカ神話パック, 建国英雄, 世界神話増補パック",
+        "summary": "マンコ・カパックとともにインカの始まりを導く女性祖先。女性の技能と王家の起源に関わる。",
+        "description": "マンコ・カパックとともにインカの始まりを導く女性祖先。女性の技能と王家の起源に関わる。\n\n伝承では女性たちに織物や家庭の技術を教え、社会秩序の成立を助けた。建国神話の中で、男性的な王権だけでなく、生活技術と共同体形成の側面を担う人物である。\n\n辞典的には、ママ・オクリョは「インカ/アンデス」の「祖先女神/文化英雄」として引ける項目で、中心になる手がかりは「建国, 織物, 女性, クスコ, 祖先」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「マンコ・カパック, インティ, クスコ, 織物, 建国」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "マンコ・カパック, インティ, クスコ, 織物, 建国",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 621,
+      "term": "ルー",
+      "data": {
+        "term": "ルー",
+        "reading": "",
+        "aliases": "Lugh, Lugus, Lug",
+        "language": "Old Irish, Celtic",
+        "kind": "神/英雄神",
+        "mythology": "ケルト",
+        "domains": "技芸, 光, 王権, 槍, 戦い",
+        "tags": "ケルト, 実在神話, ケルト神話パック, 主要神, 世界神話増補パック",
+        "summary": "ケルト神話の多才な神・英雄。あらゆる技に優れ、トゥアハ・デ・ダナーンを勝利へ導く。",
+        "description": "ケルト神話の多才な神・英雄。あらゆる技に優れ、トゥアハ・デ・ダナーンを勝利へ導く。\n\nアイルランド神話では長腕のルーとして知られ、バロールを倒す英雄的な神である。職人、戦士、王、詩人の能力を兼ね備えた万能性が特徴で、ルグナサドの祭りとも結びつく。\n\n辞典的には、ルーは「ケルト」の「神/英雄神」として引ける項目で、中心になる手がかりは「技芸, 光, 王権, 槍, 戦い」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「トゥアハ・デ・ダナーン, バロール, ダグザ, ルグナサド, 槍」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "トゥアハ・デ・ダナーン, バロール, ダグザ, ルグナサド, 槍",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 319,
+      "term": "ダグザ",
+      "data": {
+        "term": "ダグザ",
+        "reading": "",
+        "aliases": "Dagda, The Good God",
+        "language": "Old Irish",
+        "kind": "神/父神",
+        "mythology": "ケルト",
+        "domains": "豊穣, 大釜, 棍棒, 王権, 魔術",
+        "tags": "ケルト, 実在神話, ケルト神話パック, 父神, 世界神話増補パック",
+        "summary": "アイルランド神話の父神的存在。大釜、棍棒、豊穣と魔術を持つ豪放な神。",
+        "description": "アイルランド神話の父神的存在。大釜、棍棒、豊穣と魔術を持つ豪放な神。\n\n『善き神』とは道徳的に善いというより、あらゆる能力に優れるという意味を帯びる。死者を殺し生者を蘇らせる棍棒、尽きることのない大釜、季節や豊穣を動かす力を持つ。\n\n辞典的には、ダグザは「ケルト」の「神/父神」として引ける項目で、中心になる手がかりは「豊穣, 大釜, 棍棒, 王権, 魔術」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「トゥアハ・デ・ダナーン, ブリギッド, モリガン, 大釜, サウィン」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "トゥアハ・デ・ダナーン, ブリギッド, モリガン, 大釜, サウィン",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 588,
+      "term": "モリガン",
+      "data": {
+        "term": "モリガン",
+        "reading": "",
+        "aliases": "Morrigan, Morrígan",
+        "language": "Old Irish",
+        "kind": "女神/戦争女神",
+        "mythology": "ケルト",
+        "domains": "戦争, 運命, 烏, 主権, 死",
+        "tags": "ケルト, 実在神話, ケルト神話パック, 戦争女神, 世界神話増補パック",
+        "summary": "戦場、死、運命、主権を司るアイルランドの女神。烏の姿で戦場に現れる。",
+        "description": "戦場、死、運命、主権を司るアイルランドの女神。烏の姿で戦場に現れる。\n\n一柱の女神であると同時に、バズヴ、マハ、ネヴァンなど複数女神の集合としても語られる。戦いを煽り、勝敗を予言し、王権の正統性を試す存在として強い。\n\n辞典的には、モリガンは「ケルト」の「女神/戦争女神」として引ける項目で、中心になる手がかりは「戦争, 運命, 烏, 主権, 死」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「バズヴ, マハ, クー・フーリン, ダグザ, 烏」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "バズヴ, マハ, クー・フーリン, ダグザ, 烏",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 483,
+      "term": "ブリギッド",
+      "data": {
+        "term": "ブリギッド",
+        "reading": "",
+        "aliases": "Brigid, Brigit, Brighid",
+        "language": "Old Irish, Celtic",
+        "kind": "女神",
+        "mythology": "ケルト",
+        "domains": "詩, 鍛冶, 癒やし, 火, 春",
+        "tags": "ケルト, 実在神話, ケルト神話パック, 女神, 世界神話増補パック",
+        "summary": "詩、鍛冶、癒やしを司る女神。後に聖ブリギッドとも重なった重要な存在。",
+        "description": "詩、鍛冶、癒やしを司る女神。後に聖ブリギッドとも重なった重要な存在。\n\n創造的な火を持つ女神で、詩人の霊感、鍛冶の技、治療の力を結びつける。インボルクの季節、春の始まり、家畜や乳とも関わり、キリスト教化後も聖女伝承に姿を変えて残った。\n\n辞典的には、ブリギッドは「ケルト」の「女神」として引ける項目で、中心になる手がかりは「詩, 鍛冶, 癒やし, 火, 春」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「インボルク, ダグザ, 火, 詩, 鍛冶」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "インボルク, ダグザ, 火, 詩, 鍛冶",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 251,
+      "term": "ケルヌンノス",
+      "data": {
+        "term": "ケルヌンノス",
+        "reading": "",
+        "aliases": "Cernunnos",
+        "language": "Gaulish, Celtic",
+        "kind": "神/獣の主",
+        "mythology": "ケルト",
+        "domains": "角, 動物, 森, 豊穣, 冥界",
+        "tags": "ケルト, 実在神話, ケルト神話パック, 獣の主, 世界神話増補パック",
+        "summary": "鹿角を持つ『獣の主』として知られるガリア系の神。動物と自然の豊穣を象徴する。",
+        "description": "鹿角を持つ『獣の主』として知られるガリア系の神。動物と自然の豊穣を象徴する。\n\nグンデストルップの大釜に描かれた角ある座像で有名で、蛇や獣たちに囲まれる。名前や神話は断片的だが、野生動物、豊穣、地下的な富を結ぶ神として辞典向きの存在である。\n\n辞典的には、ケルヌンノスは「ケルト」の「神/獣の主」として引ける項目で、中心になる手がかりは「角, 動物, 森, 豊穣, 冥界」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エポナ, 森, 角, グンデストルップの大釜, 動物」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エポナ, 森, 角, グンデストルップの大釜, 動物",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 540,
+      "term": "マナナン・マクリル",
+      "data": {
+        "term": "マナナン・マクリル",
+        "reading": "",
+        "aliases": "Manannan mac Lir, Manannán mac Lir",
+        "language": "Old Irish",
+        "kind": "神/海神",
+        "mythology": "ケルト/アイルランド",
+        "domains": "海, 霧, 異界, 船, 魔法",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 海神, 世界神話増補パック",
+        "summary": "アイルランド神話の海神。霧と海を越えて異界へ通じる境界の神。",
+        "description": "アイルランド神話の海神。霧と海を越えて異界へ通じる境界の神。\n\n魔法の船、姿を隠すマント、海を渡る力を持ち、ティル・ナ・ノーグなど異界との関係が深い。海は単なる水域ではなく、現世と異界を隔て、同時につなぐ道として扱われる。\n\n辞典的には、マナナン・マクリルは「ケルト/アイルランド」の「神/海神」として引ける項目で、中心になる手がかりは「海, 霧, 異界, 船, 魔法」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ティル・ナ・ノーグ, リル, 異界, 海, 霧」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ティル・ナ・ノーグ, リル, 異界, 海, 霧",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 426,
+      "term": "ヌアザ",
+      "data": {
+        "term": "ヌアザ",
+        "reading": "",
+        "aliases": "Nuada, Nuadu Airgetlam",
+        "language": "Old Irish",
+        "kind": "神/王",
+        "mythology": "ケルト/アイルランド",
+        "domains": "王権, 銀の腕, 戦い, 正統性",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 王, 世界神話増補パック",
+        "summary": "トゥアハ・デ・ダナーンの王。失った腕を銀の腕に替えたことで知られる。",
+        "description": "トゥアハ・デ・ダナーンの王。失った腕を銀の腕に替えたことで知られる。\n\n王は身体的完全性を求められたため、腕を失ったヌアザは一度王位を退く。銀の腕を得て復位する物語は、王権、身体、正統性、治癒技術が結びつく好例である。\n\n辞典的には、ヌアザは「ケルト/アイルランド」の「神/王」として引ける項目で、中心になる手がかりは「王権, 銀の腕, 戦い, 正統性」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「トゥアハ・デ・ダナーン, ルー, ディアン・ケヒト, 銀の腕, 王権」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "トゥアハ・デ・ダナーン, ルー, ディアン・ケヒト, 銀の腕, 王権",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 326,
+      "term": "ティル・ナ・ノーグ",
+      "data": {
+        "term": "ティル・ナ・ノーグ",
+        "reading": "",
+        "aliases": "Tir na nOg, Tír na nÓg",
+        "language": "Old Irish",
+        "kind": "異界/常若の国",
+        "mythology": "ケルト/アイルランド",
+        "domains": "異界, 不老, 海, 若さ, 時間",
+        "tags": "ケルト/アイルランド, 実在神話, ケルト神話パック, 異界, 世界神話増補パック",
+        "summary": "『若者の国』とされるケルトの異界。老いのない楽園として語られる。",
+        "description": "『若者の国』とされるケルトの異界。老いのない楽園として語られる。\n\n海の彼方にあり、時間の流れが現世と異なる。オシーンの物語では、異界で過ごした短い時間が現世では長い年月になっていたことが明かされる。楽園でありながら帰還不能の悲しみを持つ。\n\n辞典的には、ティル・ナ・ノーグは「ケルト/アイルランド」の「異界/常若の国」として引ける項目で、中心になる手がかりは「異界, 不老, 海, 若さ, 時間」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「マナナン・マクリル, オシーン, 異界, 海, 妖精」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "マナナン・マクリル, オシーン, 異界, 海, 妖精",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 532,
+      "term": "ペルーン",
+      "data": {
+        "term": "ペルーン",
+        "reading": "",
+        "aliases": "Perun",
+        "language": "Slavic",
+        "kind": "神/雷神",
+        "mythology": "スラヴ",
+        "domains": "雷, 戦争, 樫, 山, 王権",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 雷神, 世界神話増補パック",
+        "summary": "スラヴ神話の雷神。戦士と支配者の守護、天上の秩序を象徴する。",
+        "description": "スラヴ神話の雷神。戦士と支配者の守護、天上の秩序を象徴する。\n\n斧や矢、雷を武器とし、山や樫の木と結びつく。地下や水辺の神ヴェレスとの対立は、雷雨神話、秩序と混沌、天と地下の緊張として理解しやすい。\n\n辞典的には、ペルーンは「スラヴ」の「神/雷神」として引ける項目で、中心になる手がかりは「雷, 戦争, 樫, 山, 王権」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ヴェレス, 樫, 雷, 戦争, 天」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ヴェレス, 樫, 雷, 戦争, 天",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 638,
+      "term": "ヴェレス",
+      "data": {
+        "term": "ヴェレス",
+        "reading": "",
+        "aliases": "Veles, Volos",
+        "language": "Slavic",
+        "kind": "神/地下と家畜の神",
+        "mythology": "スラヴ",
+        "domains": "地下, 家畜, 富, 魔術, 水",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 地下神, 世界神話増補パック",
+        "summary": "地下、家畜、富、魔術を司るスラヴの神。ペルーンの宿敵として語られる。",
+        "description": "地下、家畜、富、魔術を司るスラヴの神。ペルーンの宿敵として語られる。\n\nヴェレスは蛇や竜のような姿で想像されることもあり、家畜や財産を盗む地下の力として雷神ペルーンと対立する。水、湿地、冥界、詩や魔術とも結びつき、単純な悪神ではない。\n\n辞典的には、ヴェレスは「スラヴ」の「神/地下と家畜の神」として引ける項目で、中心になる手がかりは「地下, 家畜, 富, 魔術, 水」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ペルーン, 冥界, 家畜, 魔術, 竜」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ペルーン, 冥界, 家畜, 魔術, 竜",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1662,
+      "term": "モコシ",
+      "data": {
+        "term": "モコシ",
+        "reading": "",
+        "aliases": "Mokosh, Mokos",
+        "language": "Slavic",
+        "kind": "女神/大地母神",
+        "mythology": "スラヴ",
+        "domains": "大地, 糸, 女性, 豊穣, 湿り気",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 女神, 世界神話増補パック",
+        "summary": "スラヴの大地・女性・糸仕事に関わる女神。湿った母なる大地を表す。",
+        "description": "スラヴの大地・女性・糸仕事に関わる女神。湿った母なる大地を表す。\n\nモコシはキリスト教化後も民間信仰に残ったとされ、紡ぎ、女性の仕事、出産、大地の潤いと結びつく。世界観では土地と生活技術を守る女神として使いやすい。\n\n辞典的には、モコシは「スラヴ」の「女神/大地母神」として引ける項目で、中心になる手がかりは「大地, 糸, 女性, 豊穣, 湿り気」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ペルーン, ヴェレス, 糸, 大地, 豊穣」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ペルーン, ヴェレス, 糸, 大地, 豊穣",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1460,
+      "term": "スヴァローグ",
+      "data": {
+        "term": "スヴァローグ",
+        "reading": "",
+        "aliases": "Svarog",
+        "language": "Slavic",
+        "kind": "神/天空・鍛冶神",
+        "mythology": "スラヴ",
+        "domains": "天空, 火, 鍛冶, 父神, 太陽",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 鍛冶神, 世界神話増補パック",
+        "summary": "天空や火、鍛冶と結びつくスラヴの神。父神的な性格を持つ。",
+        "description": "天空や火、鍛冶と結びつくスラヴの神。父神的な性格を持つ。\n\n資料は断片的だが、火と金属加工、天上の秩序を司る神として語られる。ダジボーグやスヴァロジチとの関係から、太陽や火の神々の祖として読むことができる。\n\n辞典的には、スヴァローグは「スラヴ」の「神/天空・鍛冶神」として引ける項目で、中心になる手がかりは「天空, 火, 鍛冶, 父神, 太陽」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ダジボーグ, スヴァロジチ, 火, 鍛冶, 天空」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ダジボーグ, スヴァロジチ, 火, 鍛冶, 天空",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1468,
+      "term": "ダジボーグ",
+      "data": {
+        "term": "ダジボーグ",
+        "reading": "",
+        "aliases": "Dazhbog, Dazbog",
+        "language": "Slavic",
+        "kind": "神/太陽神",
+        "mythology": "スラヴ",
+        "domains": "太陽, 恵み, 富, 光, 祖先",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 太陽神, 世界神話増補パック",
+        "summary": "スラヴ神話の太陽神・恵みの神。光と富を与える存在として語られる。",
+        "description": "スラヴ神話の太陽神・恵みの神。光と富を与える存在として語られる。\n\n名は『与える神』のように解釈され、太陽の光、豊かさ、王族や民族の祖先観と結びつく。スヴァローグの子とされることもあり、天上の火の系譜に属する。\n\n辞典的には、ダジボーグは「スラヴ」の「神/太陽神」として引ける項目で、中心になる手がかりは「太陽, 恵み, 富, 光, 祖先」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「スヴァローグ, スヴァロジチ, 太陽, 光, 富」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "スヴァローグ, スヴァロジチ, 太陽, 光, 富",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1729,
+      "term": "ストリボーグ",
+      "data": {
+        "term": "ストリボーグ",
+        "reading": "",
+        "aliases": "Stribog",
+        "language": "Slavic",
+        "kind": "神/風神",
+        "mythology": "スラヴ",
+        "domains": "風, 空, 嵐, 方位, 天候",
+        "tags": "スラヴ, 実在神話, スラヴ神話パック, 風神, 世界神話増補パック",
+        "summary": "風を司るスラヴの神。風の祖、空を動かす力として語られる。",
+        "description": "風を司るスラヴの神。風の祖、空を動かす力として語られる。\n\n『イーゴリ軍記』などで風と結びついて現れ、風の子孫たちが世界へ吹くというイメージを持つ。雷神ペルーンや太陽神と合わせると、スラヴの天候神話の一部として扱える。\n\n辞典的には、ストリボーグは「スラヴ」の「神/風神」として引ける項目で、中心になる手がかりは「風, 空, 嵐, 方位, 天候」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ペルーン, ダジボーグ, 風, 嵐, 天候」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ペルーン, ダジボーグ, 風, 嵐, 天候",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 443,
+      "term": "バーバ・ヤガー",
+      "data": {
+        "term": "バーバ・ヤガー",
+        "reading": "",
+        "aliases": "Baba Yaga",
+        "language": "Slavic, Russian",
+        "kind": "魔女/境界存在",
+        "mythology": "スラヴ/東欧民間伝承",
+        "domains": "森, 魔女, 小屋, 試練, 死",
+        "tags": "スラヴ/東欧民間伝承, 実在神話, スラヴ神話パック, 魔女, 世界神話増補パック",
+        "summary": "鶏の脚を持つ小屋に住む恐ろしい魔女。試練を与える境界存在として有名。",
+        "description": "鶏の脚を持つ小屋に住む恐ろしい魔女。試練を与える境界存在として有名。\n\n主人公を食べようとする怪物である一方、正しく振る舞う者には助言や道具を与える。森の奥、死者の世界、成人儀礼的な試練の門番として読むと、単なる悪い魔女以上の役割が見える。\n\n辞典的には、バーバ・ヤガーは「スラヴ/東欧民間伝承」の「魔女/境界存在」として引ける項目で、中心になる手がかりは「森, 魔女, 小屋, 試練, 死」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「森, 魔女, 小屋, 試練, 民間伝承」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "森, 魔女, 小屋, 試練, 民間伝承",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 619,
+      "term": "ルサールカ",
+      "data": {
+        "term": "ルサールカ",
+        "reading": "",
+        "aliases": "Rusalka",
+        "language": "Slavic, Russian",
+        "kind": "水霊/亡霊",
+        "mythology": "スラヴ/東欧民間伝承",
+        "domains": "水, 女性, 溺死, 歌, 危険",
+        "tags": "スラヴ/東欧民間伝承, 実在神話, スラヴ神話パック, 水霊, 世界神話増補パック",
+        "summary": "川や湖に現れる女性の水霊。溺死者や早死にした女性の霊ともされる。",
+        "description": "川や湖に現れる女性の水霊。溺死者や早死にした女性の霊ともされる。\n\nルサールカは美しく誘惑的な水辺の霊として語られ、人を水へ引き込む危険を持つ。春や夏の水辺の祭り、死者、未婚女性の霊と結びつき、水の豊かさと恐ろしさを併せ持つ。\n\n辞典的には、ルサールカは「スラヴ/東欧民間伝承」の「水霊/亡霊」として引ける項目で、中心になる手がかりは「水, 女性, 溺死, 歌, 危険」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ヴォジャノーイ, 水, 亡霊, 歌, 川」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ヴォジャノーイ, 水, 亡霊, 歌, 川",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 164,
+      "term": "オバタラ",
+      "data": {
+        "term": "オバタラ",
+        "reading": "",
+        "aliases": "Obatala, Orisanla",
+        "language": "Yoruba",
+        "kind": "オリシャ/創造神",
+        "mythology": "ヨルバ",
+        "domains": "創造, 白, 清浄, 人間, 知恵",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, オリシャ, 世界神話増補パック",
+        "summary": "人間の身体を形作ったとされるオリシャ。白、清浄、穏やかな知恵と結びつく。",
+        "description": "人間の身体を形作ったとされるオリシャ。白、清浄、穏やかな知恵と結びつく。\n\nオバタラは人間の姿を粘土で作る役割を持つとされ、障害や不完全さを含めた人間存在の由来にも関わる。白い布や静けさ、節制が象徴となる。\n\n辞典的には、オバタラは「ヨルバ」の「オリシャ/創造神」として引ける項目で、中心になる手がかりは「創造, 白, 清浄, 人間, 知恵」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オロドゥマレ, オドゥドゥワ, オリシャ, 創造, 白」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オロドゥマレ, オドゥドゥワ, オリシャ, 創造, 白",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 994,
+      "term": "オドゥドゥワ",
+      "data": {
+        "term": "オドゥドゥワ",
+        "reading": "",
+        "aliases": "Oduduwa, Odudua",
+        "language": "Yoruba",
+        "kind": "祖先神/創造英雄",
+        "mythology": "ヨルバ",
+        "domains": "大地, 王権, イフェ, 祖先, 創造",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 祖先神, 世界神話増補パック",
+        "summary": "ヨルバの王権と大地創造に関わる祖先的存在。イフェの起源と結びつく。",
+        "description": "ヨルバの王権と大地創造に関わる祖先的存在。イフェの起源と結びつく。\n\n天から降りて大地を広げた存在、あるいはヨルバ王統の祖として語られる。神話・歴史・王権の境界に立つ人物で、都市イフェの聖性を支える。\n\n辞典的には、オドゥドゥワは「ヨルバ」の「祖先神/創造英雄」として引ける項目で、中心になる手がかりは「大地, 王権, イフェ, 祖先, 創造」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オバタラ, イフェ, 王権, 創造, 祖先」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オバタラ, イフェ, 王権, 創造, 祖先",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 139,
+      "term": "エシュ",
+      "data": {
+        "term": "エシュ",
+        "reading": "",
+        "aliases": "Eshu, Elegba, Elegua",
+        "language": "Yoruba",
+        "kind": "オリシャ/トリックスター",
+        "mythology": "ヨルバ",
+        "domains": "道, 交差路, 伝令, 言葉, 運命",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, トリックスター, 世界神話増補パック",
+        "summary": "交差路と言葉、神々と人間の伝令を司るオリシャ。トリックスター的な性格を持つ。",
+        "description": "交差路と言葉、神々と人間の伝令を司るオリシャ。トリックスター的な性格を持つ。\n\nエシュは供物を神々へ運び、言葉の意味をずらし、選択の結果を露わにする。悪魔ではなく、境界と伝達を管理する神であり、儀礼では最初に関わる重要な存在である。\n\n辞典的には、エシュは「ヨルバ」の「オリシャ/トリックスター」として引ける項目で、中心になる手がかりは「道, 交差路, 伝令, 言葉, 運命」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オリシャ, オロドゥマレ, イファ, 交差路, トリックスター」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オリシャ, オロドゥマレ, イファ, 交差路, トリックスター",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 159,
+      "term": "オグン",
+      "data": {
+        "term": "オグン",
+        "reading": "",
+        "aliases": "Ogun",
+        "language": "Yoruba",
+        "kind": "オリシャ/鉄と戦いの神",
+        "mythology": "ヨルバ",
+        "domains": "鉄, 戦争, 道, 狩猟, 技術",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, オリシャ, 世界神話増補パック",
+        "summary": "鉄、鍛冶、戦争、道を切り開く力を司るオリシャ。",
+        "description": "鉄、鍛冶、戦争、道を切り開く力を司るオリシャ。\n\nオグンは森を切り開き、鉄器と技術で文明の道を作る神である。戦争の暴力と職人技、狩猟と開拓が同じ神格にまとまり、現代では機械や車とも結びつけられる。\n\n辞典的には、オグンは「ヨルバ」の「オリシャ/鉄と戦いの神」として引ける項目で、中心になる手がかりは「鉄, 戦争, 道, 狩猟, 技術」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エシュ, シャンゴ, 鉄, 鍛冶, 戦争」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エシュ, シャンゴ, 鉄, 鍛冶, 戦争",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 265,
+      "term": "シャンゴ",
+      "data": {
+        "term": "シャンゴ",
+        "reading": "",
+        "aliases": "Shango, Sango",
+        "language": "Yoruba",
+        "kind": "オリシャ/雷神",
+        "mythology": "ヨルバ",
+        "domains": "雷, 王権, 火, 太鼓, 正義",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 雷神, 世界神話増補パック",
+        "summary": "雷と火、王権を司るオリシャ。激しい力と正義の象徴。",
+        "description": "雷と火、王権を司るオリシャ。激しい力と正義の象徴。\n\nシャンゴは歴史的なオヨ王とも結びつけられ、神格化された王として語られる。雷斧、太鼓、踊り、熱い気質を持ち、裁きと情熱の神として広く信仰される。\n\n辞典的には、シャンゴは「ヨルバ」の「オリシャ/雷神」として引ける項目で、中心になる手がかりは「雷, 王権, 火, 太鼓, 正義」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オヤ, オグン, 雷, 王権, オリシャ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オヤ, オグン, 雷, 王権, オリシャ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 161,
+      "term": "オシュン",
+      "data": {
+        "term": "オシュン",
+        "reading": "",
+        "aliases": "Oshun, Osun",
+        "language": "Yoruba",
+        "kind": "オリシャ/川の女神",
+        "mythology": "ヨルバ",
+        "domains": "川, 愛, 美, 豊穣, 金",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, オリシャ, 世界神話増補パック",
+        "summary": "川、愛、美、豊穣を司るオリシャ。甘い水と魅力の力を表す。",
+        "description": "川、愛、美、豊穣を司るオリシャ。甘い水と魅力の力を表す。\n\nオシュンは優美で愛情深い一方、侮られると世界から潤いを奪う力も持つ。女性性、妊娠、富、鏡や金色の装飾と関わり、川の恵みを人格化した女神である。\n\n辞典的には、オシュンは「ヨルバ」の「オリシャ/川の女神」として引ける項目で、中心になる手がかりは「川, 愛, 美, 豊穣, 金」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イェモジャ, オヤ, 川, 愛, 豊穣」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イェモジャ, オヤ, 川, 愛, 豊穣",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 126,
+      "term": "イェモジャ",
+      "data": {
+        "term": "イェモジャ",
+        "reading": "",
+        "aliases": "Yemoja, Yemaya, Yemọja",
+        "language": "Yoruba",
+        "kind": "オリシャ/水の母神",
+        "mythology": "ヨルバ",
+        "domains": "海, 川, 母性, 生命, 守護",
+        "tags": "ヨルバ, 実在神話, ヨルバ神話パック, 水神, 世界神話増補パック",
+        "summary": "水と母性を司るオリシャ。多くのオリシャの母ともされる大きな母神。",
+        "description": "水と母性を司るオリシャ。多くのオリシャの母ともされる大きな母神。\n\nヨルバでは川の母神として、ディアスポラ宗教では海の女神として大きく発展した。生命を生む水、母の保護、怒れば荒れる水の力を合わせ持つ。\n\n辞典的には、イェモジャは「ヨルバ」の「オリシャ/水の母神」として引ける項目で、中心になる手がかりは「海, 川, 母性, 生命, 守護」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「オシュン, オロクン, 海, 母性, オリシャ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "オシュン, オロクン, 海, 母性, オリシャ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 539,
+      "term": "マウイ",
+      "data": {
+        "term": "マウイ",
+        "reading": "",
+        "aliases": "Maui, Māui",
+        "language": "Polynesian, Hawaiian, Maori",
+        "kind": "半神/文化英雄",
+        "mythology": "ポリネシア",
+        "domains": "太陽, 釣り針, 島, 火, トリックスター",
+        "tags": "ポリネシア, 実在神話, ポリネシア神話パック, 英雄, 世界神話増補パック",
+        "summary": "ポリネシア各地で語られる半神的英雄。太陽を遅らせ、島を釣り上げ、火を得る。",
+        "description": "ポリネシア各地で語られる半神的英雄。太陽を遅らせ、島を釣り上げ、火を得る。\n\nマウイは地域によって物語が変わるが、世界の仕組みを人間に使いやすく変えるトリックスター的英雄である。巨大な釣り針、祖母から得る知恵、失敗を含む挑戦が特徴である。\n\n辞典的には、マウイは「ポリネシア」の「半神/文化英雄」として引ける項目で、中心になる手がかりは「太陽, 釣り針, 島, 火, トリックスター」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ヒナ, 太陽, 島釣り, 火, トリックスター」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ヒナ, 太陽, 島釣り, 火, トリックスター",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 533,
+      "term": "ペレ",
+      "data": {
+        "term": "ペレ",
+        "reading": "",
+        "aliases": "Pele",
+        "language": "Hawaiian",
+        "kind": "女神/火山神",
+        "mythology": "ハワイ/ポリネシア",
+        "domains": "火山, 溶岩, 火, 破壊, 創造",
+        "tags": "ハワイ/ポリネシア, 実在神話, ポリネシア神話パック, ハワイ, 火山神, 世界神話増補パック",
+        "summary": "ハワイ神話の火山の女神。溶岩による破壊と新しい土地の創造を司る。",
+        "description": "ハワイ神話の火山の女神。溶岩による破壊と新しい土地の創造を司る。\n\nペレはキラウエアなどの火山と結びつき、怒り、情熱、嫉妬、創造力を併せ持つ。溶岩は村を焼く破壊であると同時に、新しい大地を生む力でもある。\n\n辞典的には、ペレは「ハワイ/ポリネシア」の「女神/火山神」として引ける項目で、中心になる手がかりは「火山, 溶岩, 火, 破壊, 創造」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ヒイアカ, キラウエア, 火山, 溶岩, ハワイ」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ヒイアカ, キラウエア, 火山, 溶岩, ハワイ",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 318,
+      "term": "タンガロア",
+      "data": {
+        "term": "タンガロア",
+        "reading": "",
+        "aliases": "Tangaroa, Tangaloa, Ta'aroa",
+        "language": "Polynesian, Maori",
+        "kind": "神/海神・創造神",
+        "mythology": "ポリネシア",
+        "domains": "海, 創造, 魚, 航海, 大洋",
+        "tags": "ポリネシア, 実在神話, ポリネシア神話パック, 海神, 世界神話増補パック",
+        "summary": "ポリネシア各地で信仰される海神・創造神。大洋と生命の源を表す。",
+        "description": "ポリネシア各地で信仰される海神・創造神。大洋と生命の源を表す。\n\n地域によって最高神、海神、魚の祖、創造神として語られる。島々を結ぶ海そのものが神聖な空間であるポリネシア世界で、航海と生命の根源を示す代表的な神である。\n\n辞典的には、タンガロアは「ポリネシア」の「神/海神・創造神」として引ける項目で、中心になる手がかりは「海, 創造, 魚, 航海, 大洋」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「カナロア, タネ, ロンゴ, 海, 航海」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "カナロア, タネ, ロンゴ, 海, 航海",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 307,
+      "term": "タネ",
+      "data": {
+        "term": "タネ",
+        "reading": "",
+        "aliases": "Tane, Tāne-mahuta",
+        "language": "Maori",
+        "kind": "神/森と光の神",
+        "mythology": "マオリ/ポリネシア",
+        "domains": "森, 鳥, 光, 分離, 生命",
+        "tags": "マオリ/ポリネシア, 実在神話, ポリネシア神話パック, マオリ, 森, 世界神話増補パック",
+        "summary": "マオリ神話の森と鳥の神。天と地を押し分け、世界に光をもたらした。",
+        "description": "マオリ神話の森と鳥の神。天と地を押し分け、世界に光をもたらした。\n\n父ランギと母パパが密着していた世界を、タネが押し広げることで光と空間が生まれた。森の木々や鳥の父であり、生命が広がる余地を作る神として重要である。\n\n辞典的には、タネは「マオリ/ポリネシア」の「神/森と光の神」として引ける項目で、中心になる手がかりは「森, 鳥, 光, 分離, 生命」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ランギ, パパ, タンガロア, 森, 創造」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ランギ, パパ, タンガロア, 森, 創造",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 454,
+      "term": "ヒナ",
+      "data": {
+        "term": "ヒナ",
+        "reading": "",
+        "aliases": "Hina",
+        "language": "Polynesian, Hawaiian, Maori",
+        "kind": "女神/文化英雄的女神",
+        "mythology": "ポリネシア",
+        "domains": "月, 女性, 旅, tapa, 海, 家族",
+        "tags": "ポリネシア, 実在神話, ポリネシア神話パック, 女神, 世界神話増補パック",
+        "summary": "ポリネシア各地に現れる女神・女性英雄。月や海、マウイの母または親族として語られる。",
+        "description": "ポリネシア各地に現れる女神・女性英雄。月や海、マウイの母または親族として語られる。\n\nヒナは地域差が大きく、月の女神、マウイの母、布作りや海の女性として現れる。固定した一柱というより、女性性、月、生活技術、航海世界の記憶が重なる名前として扱うとよい。\n\n辞典的には、ヒナは「ポリネシア」の「女神/文化英雄的女神」として引ける項目で、中心になる手がかりは「月, 女性, 旅, tapa, 海, 家族」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「マウイ, 月, 海, 女性, ポリネシア」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "マウイ, 月, 海, 女性, ポリネシア",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 156,
+      "term": "エンリル",
+      "data": {
+        "term": "エンリル",
+        "reading": "",
+        "aliases": "Enlil",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/主神",
+        "mythology": "メソポタミア",
+        "domains": "風, 嵐, 王権, 天地分離, 命令",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 主神, 世界神話増補パック",
+        "summary": "シュメール・メソポタミアの主神級の神。風と権威、神々の命令を司る。",
+        "description": "シュメール・メソポタミアの主神級の神。風と権威、神々の命令を司る。\n\n天と地を分け、人間世界が成立する空間を作る神として語られる。ニップルを中心に崇拝され、王権や神々の会議の権威と結びつく。\n\n辞典的には、エンリルは「メソポタミア」の「神/主神」として引ける項目で、中心になる手がかりは「風, 嵐, 王権, 天地分離, 命令」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「アン, エンキ, ニップル, 嵐, 王権」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "アン, エンキ, ニップル, 嵐, 王権",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 154,
+      "term": "エンキ",
+      "data": {
+        "term": "エンキ",
+        "reading": "",
+        "aliases": "Enki, Ea",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/知恵と水の神",
+        "mythology": "メソポタミア",
+        "domains": "知恵, 淡水, 魔術, 創造, 技術",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 知恵神, 世界神話増補パック",
+        "summary": "知恵、地下の淡水、魔術、創造を司る神。アッカド語ではエアとも呼ばれる。",
+        "description": "知恵、地下の淡水、魔術、創造を司る神。アッカド語ではエアとも呼ばれる。\n\n深淵の淡水アプスーに住み、神々や人間を助ける知恵ある神として多くの神話に登場する。人間創造、呪術、技術、秩序づけの力を持つ。\n\n辞典的には、エンキは「メソポタミア」の「神/知恵と水の神」として引ける項目で、中心になる手がかりは「知恵, 淡水, 魔術, 創造, 技術」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エンリル, アプスー, イナンナ, ニンフルサグ, 人間創造」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エンリル, アプスー, イナンナ, ニンフルサグ, 人間創造",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1596,
+      "term": "イナンナ",
+      "data": {
+        "term": "イナンナ",
+        "reading": "",
+        "aliases": "Inanna, Ishtar",
+        "language": "Sumerian, Akkadian",
+        "kind": "女神/愛と戦争の女神",
+        "mythology": "メソポタミア",
+        "domains": "愛, 戦争, 金星, 王権, 冥界下降",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 女神, 世界神話増補パック",
+        "summary": "シュメールの愛と戦争の女神。アッカド以後のイシュタルと重なる。",
+        "description": "シュメールの愛と戦争の女神。アッカド以後のイシュタルと重なる。\n\n恋愛、性愛、戦闘、王権、金星を司る強烈な女神で、冥界下降神話では姉エレシュキガルの領域へ降りる。生命力と危険な支配欲が同時に現れる。\n\n辞典的には、イナンナは「メソポタミア」の「女神/愛と戦争の女神」として引ける項目で、中心になる手がかりは「愛, 戦争, 金星, 王権, 冥界下降」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イシュタル, エレシュキガル, ドゥムジ, 金星, 冥界下降」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イシュタル, エレシュキガル, ドゥムジ, 金星, 冥界下降",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 152,
+      "term": "エレシュキガル",
+      "data": {
+        "term": "エレシュキガル",
+        "reading": "",
+        "aliases": "Ereshkigal",
+        "language": "Sumerian, Akkadian",
+        "kind": "女神/冥界女王",
+        "mythology": "メソポタミア",
+        "domains": "冥界, 死, 王権, 地下, 裁き",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 冥界, 世界神話増補パック",
+        "summary": "メソポタミア冥界の女王。死者の国を支配する恐るべき女神。",
+        "description": "メソポタミア冥界の女王。死者の国を支配する恐るべき女神。\n\nイナンナの冥界下降神話で中心的に登場し、地上の生命力を持つ妹と対照をなす。冥界は暗く避けがたい場所であり、彼女はその秩序を守る支配者である。\n\n辞典的には、エレシュキガルは「メソポタミア」の「女神/冥界女王」として引ける項目で、中心になる手がかりは「冥界, 死, 王権, 地下, 裁き」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イナンナ, ネルガル, クル, 冥界, 死者」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イナンナ, ネルガル, クル, 冥界, 死者",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 432,
+      "term": "ネルガル",
+      "data": {
+        "term": "ネルガル",
+        "reading": "",
+        "aliases": "Nergal",
+        "language": "Akkadian, Sumerian",
+        "kind": "神/疫病と冥界の神",
+        "mythology": "メソポタミア",
+        "domains": "疫病, 戦争, 冥界, 熱, 死",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 冥界神, 世界神話増補パック",
+        "summary": "疫病、戦争、灼熱、冥界と結びつく神。後にエレシュキガルの配偶神ともされる。",
+        "description": "疫病、戦争、灼熱、冥界と結びつく神。後にエレシュキガルの配偶神ともされる。\n\n破壊的な暑さや疫病、戦場の死を帯びる神で、地下世界の王としても語られる。エレシュキガルとの物語では、地上の暴力的な力が冥界支配へ入る構図が見える。\n\n辞典的には、ネルガルは「メソポタミア」の「神/疫病と冥界の神」として引ける項目で、中心になる手がかりは「疫病, 戦争, 冥界, 熱, 死」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「エレシュキガル, 冥界, 疫病, 戦争, クル」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "エレシュキガル, 冥界, 疫病, 戦争, クル",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 324,
+      "term": "ティアマト",
+      "data": {
+        "term": "ティアマト",
+        "reading": "",
+        "aliases": "Tiamat",
+        "language": "Akkadian",
+        "kind": "原初神/海の怪物",
+        "mythology": "メソポタミア/バビロニア",
+        "domains": "海, 混沌, 竜, 創造, 母",
+        "tags": "メソポタミア/バビロニア, 実在神話, メソポタミア神話パック, 創世神話, 世界神話増補パック",
+        "summary": "バビロニア創世神話に登場する原初の塩水の女神・怪物。",
+        "description": "バビロニア創世神話に登場する原初の塩水の女神・怪物。\n\nエヌマ・エリシュでは、若い神々と戦う混沌の母として描かれ、マルドゥクに倒された身体から世界が作られる。海、母性、怪物、創造素材が一つに重なる存在である。\n\n辞典的には、ティアマトは「メソポタミア/バビロニア」の「原初神/海の怪物」として引ける項目で、中心になる手がかりは「海, 混沌, 竜, 創造, 母」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「アプスー, マルドゥク, キングー, エヌマ・エリシュ, 創造」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "アプスー, マルドゥク, キングー, エヌマ・エリシュ, 創造",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 87,
+      "term": "アプスー",
+      "data": {
+        "term": "アプスー",
+        "reading": "",
+        "aliases": "Apsu, Abzu",
+        "language": "Sumerian, Akkadian",
+        "kind": "原初神/淡水深淵",
+        "mythology": "メソポタミア",
+        "domains": "淡水, 深淵, 原初, 創造, 地下水",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 原初, 世界神話増補パック",
+        "summary": "原初の淡水の深淵。ティアマトの塩水と対になり、世界の始まりに置かれる。",
+        "description": "原初の淡水の深淵。ティアマトの塩水と対になり、世界の始まりに置かれる。\n\nアプスーは地下にある神聖な淡水の海でもあり、エンキの住む領域ともされる。メソポタミアの灌漑文明にとって、水は創造の根源であると同時に制御すべき力だった。\n\n辞典的には、アプスーは「メソポタミア」の「原初神/淡水深淵」として引ける項目で、中心になる手がかりは「淡水, 深淵, 原初, 創造, 地下水」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ティアマト, エンキ, エヌマ・エリシュ, 淡水, 創造」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ティアマト, エンキ, エヌマ・エリシュ, 淡水, 創造",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 542,
+      "term": "マルドゥク",
+      "data": {
+        "term": "マルドゥク",
+        "reading": "",
+        "aliases": "Marduk",
+        "language": "Akkadian",
+        "kind": "神/都市神・主神",
+        "mythology": "メソポタミア/バビロニア",
+        "domains": "王権, 嵐, 創造, バビロン, 秩序",
+        "tags": "メソポタミア/バビロニア, 実在神話, メソポタミア神話パック, 主神, 世界神話増補パック",
+        "summary": "バビロンの都市神で、エヌマ・エリシュではティアマトを倒して世界を整える主神。",
+        "description": "バビロンの都市神で、エヌマ・エリシュではティアマトを倒して世界を整える主神。\n\nマルドゥクは若い神々の代表として混沌のティアマトを倒し、その身体から天と地を作る。バビロンの政治的上昇とともに主神化し、都市の権威と宇宙秩序が重ねられた。\n\n辞典的には、マルドゥクは「メソポタミア/バビロニア」の「神/都市神・主神」として引ける項目で、中心になる手がかりは「王権, 嵐, 創造, バビロン, 秩序」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ティアマト, エヌマ・エリシュ, バビロン, キングー, 王権」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ティアマト, エヌマ・エリシュ, バビロン, キングー, 王権",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 1733,
+      "term": "ナンナ",
+      "data": {
+        "term": "ナンナ",
+        "reading": "",
+        "aliases": "Nanna, Sin, Suen",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/月神",
+        "mythology": "メソポタミア",
+        "domains": "月, 暦, 牡牛, 時間, ウル",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 月神, 世界神話増補パック",
+        "summary": "シュメールの月神。アッカド語ではシンとも呼ばれ、暦と時間を司る。",
+        "description": "シュメールの月神。アッカド語ではシンとも呼ばれ、暦と時間を司る。\n\nウルの都市神として重要で、月の満ち欠けが暦と祭儀の基準になった。イナンナやウトゥの父とされ、夜空の秩序を支える神である。\n\n辞典的には、ナンナは「メソポタミア」の「神/月神」として引ける項目で、中心になる手がかりは「月, 暦, 牡牛, 時間, ウル」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「イナンナ, ウトゥ, ウル, 暦, 月」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "イナンナ, ウトゥ, ウル, 暦, 月",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 2193,
+      "term": "ウトゥ",
+      "data": {
+        "term": "ウトゥ",
+        "reading": "",
+        "aliases": "Utu, Shamash",
+        "language": "Sumerian, Akkadian",
+        "kind": "神/太陽神・正義神",
+        "mythology": "メソポタミア",
+        "domains": "太陽, 正義, 裁き, 旅, 光",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 太陽神, 世界神話増補パック",
+        "summary": "シュメールの太陽神。アッカド語ではシャマシュと呼ばれ、正義と裁きを司る。",
+        "description": "シュメールの太陽神。アッカド語ではシャマシュと呼ばれ、正義と裁きを司る。\n\n太陽はすべてを見通すため、ウトゥは真実、裁判、旅人の守護と関わる。ギルガメシュ叙事詩でも英雄を助け、光が道を開く神として登場する。\n\n辞典的には、ウトゥは「メソポタミア」の「神/太陽神・正義神」として引ける項目で、中心になる手がかりは「太陽, 正義, 裁き, 旅, 光」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ナンナ, イナンナ, ギルガメシュ, 正義, 太陽」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ナンナ, イナンナ, ギルガメシュ, 正義, 太陽",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 609,
+      "term": "ラマシュトゥ",
+      "data": {
+        "term": "ラマシュトゥ",
+        "reading": "",
+        "aliases": "Lamashtu",
+        "language": "Akkadian",
+        "kind": "女悪霊/怪物",
+        "mythology": "メソポタミア",
+        "domains": "病, 乳児, 妊婦, 悪霊, ライオン",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 悪霊, 世界神話増補パック",
+        "summary": "妊婦や乳児を害すると恐れられたメソポタミアの女悪霊。",
+        "description": "妊婦や乳児を害すると恐れられたメソポタミアの女悪霊。\n\nライオンの頭、鳥の爪などを持つ恐ろしい姿で表され、病や乳児死亡の原因とされた。護符や呪文で退ける対象であり、パズズと組み合わせて語られることも多い。\n\n辞典的には、ラマシュトゥは「メソポタミア」の「女悪霊/怪物」として引ける項目で、中心になる手がかりは「病, 乳児, 妊婦, 悪霊, ライオン」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「パズズ, 悪霊, 護符, 病, 乳児」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "パズズ, 悪霊, 護符, 病, 乳児",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    },
+    {
+      "id": 444,
+      "term": "パズズ",
+      "data": {
+        "term": "パズズ",
+        "reading": "",
+        "aliases": "Pazuzu",
+        "language": "Akkadian",
+        "kind": "悪霊/風の魔",
+        "mythology": "メソポタミア",
+        "domains": "風, 疫病, 護符, 悪霊, 砂嵐",
+        "tags": "メソポタミア, 実在神話, メソポタミア神話パック, 悪霊, 世界神話増補パック",
+        "summary": "有害な風をもたらす悪霊だが、ラマシュトゥを退ける護符としても使われた。",
+        "description": "有害な風をもたらす悪霊だが、ラマシュトゥを退ける護符としても使われた。\n\nパズズは恐ろしい魔である一方、より危険なラマシュトゥから妊婦や乳児を守るために像や護符として用いられた。悪霊が別の悪を防ぐという、魔除けの逆説的な役割が特徴である。\n\n辞典的には、パズズは「メソポタミア」の「悪霊/風の魔」として引ける項目で、中心になる手がかりは「風, 疫病, 護符, 悪霊, 砂嵐」。名前だけでなく、どの神話場面、祭儀、土地、死後世界、社会制度と結びつくかを見ると、用語としての輪郭がつかみやすい。\n\n関連語としては「ラマシュトゥ, 悪霊, 護符, 風, 病」を合わせて見るとよい。世界観設定では、単なる固有名詞ではなく、その文化で何を怖れ、何を神聖視し、どの自然現象や社会秩序を物語化した語なのかを示す部品として使いやすい。",
+        "see_also": "ラマシュトゥ, 悪霊, 護符, 風, 病",
+        "sources": "Britannica, World History Encyclopedia, and standard mythological reference summaries for Maya, Inca, Celtic, Slavic, Yoruba, Polynesian, and Mesopotamian traditions"
+      }
+    }
+  ]
+}

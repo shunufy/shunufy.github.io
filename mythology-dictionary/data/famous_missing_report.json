@@ -1,0 +1,62 @@
+[
+  {
+    "group": "Greek",
+    "present": 23,
+    "total": 23,
+    "missing": []
+  },
+  {
+    "group": "Norse",
+    "present": 16,
+    "total": 16,
+    "missing": []
+  },
+  {
+    "group": "Egyptian",
+    "present": 11,
+    "total": 11,
+    "missing": []
+  },
+  {
+    "group": "Mesopotamian",
+    "present": 10,
+    "total": 10,
+    "missing": []
+  },
+  {
+    "group": "Indian",
+    "present": 14,
+    "total": 14,
+    "missing": []
+  },
+  {
+    "group": "Celtic",
+    "present": 9,
+    "total": 9,
+    "missing": []
+  },
+  {
+    "group": "Mesoamerican",
+    "present": 5,
+    "total": 5,
+    "missing": []
+  },
+  {
+    "group": "Slavic",
+    "present": 6,
+    "total": 6,
+    "missing": []
+  },
+  {
+    "group": "AngelsDemons",
+    "present": 11,
+    "total": 11,
+    "missing": []
+  },
+  {
+    "group": "Shichifukujin",
+    "present": 7,
+    "total": 7,
+    "missing": []
+  }
+]
