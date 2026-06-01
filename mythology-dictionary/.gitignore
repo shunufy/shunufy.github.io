@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+streamlit.*.log
+data/dictionary.before_*.sqlite3
+data/*cache*.json
+

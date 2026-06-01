@@ -1,0 +1,186 @@
+from __future__ import annotations
+
+import json
+import shutil
+from pathlib import Path
+from typing import Any
+
+from db import DB_PATH, find_entries_by_term_in_conn, get_connection, insert_entry, update_entry_in_conn
+from models import ENTRY_FIELDS, merge_multi_values
+
+
+OUT_PATH = Path("data/famous_missing_terms.json")
+BACKUP_PATH = DB_PATH.with_name("dictionary.before_famous_missing_terms.sqlite3")
+
+SOURCE_TEXT = (
+    "日本大百科全書 / Britannica / Encyclopaedia of Religion / "
+    "各神話・民間伝承の一般的解説"
+)
+
+
+TERMS: list[dict[str, Any]] = [
+    {
+        "term": "ウトゥ",
+        "reading": "うとぅ",
+        "aliases": "Utu, Shamash, シャマシュ",
+        "language": "Sumerian",
+        "kind": "神",
+        "mythology": "メソポタミア",
+        "domains": "太陽, 正義, 裁き, 真実, 王権",
+        "tags": "有名補完, 実在神話, メソポタミア神話, シュメール",
+        "summary": "シュメール神話の太陽神。光で世界を照らすだけでなく、正義と裁き、真実の証人としても重視された神。",
+        "description": "ウトゥはシュメールにおける太陽神で、アッカド語圏ではシャマシュと結びつけられる。夜明けに東から現れ、天空を巡って世界を見るため、人間の行いを見通す裁判官のような神格として語られた。法、誓約、占い、王権の正当性とも関わり、暗闇に隠れたものを明らかにする存在として使いやすい。",
+        "see_also": "シャマシュ, イナンナ, エンキ, エンリル",
+    },
+    {
+        "term": "アラウン",
+        "reading": "あらうん",
+        "aliases": "Arawn",
+        "language": "Welsh",
+        "kind": "神/王",
+        "mythology": "ケルト",
+        "domains": "冥界, 異界, 王権, 狩猟, 盟約",
+        "tags": "有名補完, 実在神話, ケルト神話, ウェールズ伝承",
+        "summary": "ウェールズ伝承に登場する異界アンヌンの王。冥界的な領域を治め、狩猟や盟約の物語と結びつく存在。",
+        "description": "アラウンは『マビノギオン』第一枝で知られる、アンヌンと呼ばれる異界の王である。ダヴェドの王プイスと姿を入れ替え、敵ハヴガンを討つ物語で有名。単純な死神というより、別世界の秩序と王権を担う支配者として描かれ、白い猟犬や異界の狩りのイメージとも結びつけられる。",
+        "see_also": "アンヌン, プイス, マビノギオン, ケルヌンノス",
+    },
+    {
+        "term": "トラロック",
+        "reading": "とらろっく",
+        "aliases": "Tlaloc",
+        "language": "Nahuatl",
+        "kind": "神",
+        "mythology": "アステカ",
+        "domains": "雨, 雷, 農耕, 水, 山, 豊穣",
+        "tags": "有名補完, 実在神話, アステカ神話, 中南米神話",
+        "summary": "アステカ神話の雨と雷の神。農作物を育てる恵みの雨と、洪水や雹のような破壊的な水の両面を持つ。",
+        "description": "トラロックはメソアメリカで広く崇拝された雨・雷・農耕の神で、アステカでは特に重要な神格の一つ。山や洞窟、水源と結びつき、雨を与えて作物を育てる一方で、嵐、洪水、雹、病をもたらす恐ろしい面も持つ。ゴーグル状の目や牙を持つ姿で表され、雨の楽園トラロカンとも関係する。",
+        "see_also": "ケツァルコアトル, テスカトリポカ, ウィツィロポチトリ, トラロカン",
+    },
+    {
+        "term": "コシチェイ",
+        "reading": "こしちぇい",
+        "aliases": "Koschei, Koschei the Deathless, コシチェイ不死身",
+        "language": "Russian",
+        "kind": "怪物/魔王",
+        "mythology": "スラヴ",
+        "domains": "不死, 魂, 呪い, 誘拐, 秘匿",
+        "tags": "有名補完, 実在伝承, スラヴ民間伝承, ロシア民話",
+        "summary": "スラヴ民話に登場する不死身の魔王・怪人物。魂や死を体の外に隠しているため倒しにくい存在として知られる。",
+        "description": "コシチェイはロシアを中心とするスラヴ民話に登場する不死身の敵役で、姫や妻をさらう魔王のような役割で語られる。死や魂を針、卵、鳥、獣、箱、島など幾重にも隠した外部の器に封じているため、肉体を倒しても死なない。外部化された弱点、不死の契約、封印された魂のモチーフに向く。",
+        "see_also": "バーバ・ヤーガ, ペルーン, ヴェレス",
+    },
+    {
+        "term": "アザゼル",
+        "reading": "あざぜる",
+        "aliases": "Azazel",
+        "language": "Hebrew",
+        "kind": "堕天使/悪魔",
+        "mythology": "ユダヤ教/悪魔学",
+        "domains": "荒野, 贖罪, 堕天, 武器, 禁じられた知識",
+        "tags": "有名補完, 実在伝承, 悪魔学, 堕天使, ユダヤ伝承",
+        "summary": "ユダヤ伝承や悪魔学で語られる荒野・贖罪・堕天に関わる存在。後世には人間へ禁じられた技術を教えた堕天使としても扱われる。",
+        "description": "アザゼルは『レビ記』の贖罪日に荒野へ送られる山羊と結びつく名で、後の伝承では荒野の悪霊や堕天使として解釈された。『第一エノク書』では人間に武器、装飾、化粧など争いや誘惑に関わる知識を教えた存在として語られる。罪を背負って追放されるもの、禁じられた技術の授与者という二重の意味を持つ。",
+        "see_also": "ルシファー, サマエル, リリス, 堕天使",
+    },
+    {
+        "term": "サマエル",
+        "reading": "さまえる",
+        "aliases": "Samael, Sammael",
+        "language": "Hebrew",
+        "kind": "天使/悪魔",
+        "mythology": "ユダヤ教/悪魔学",
+        "domains": "死, 告発, 毒, 破壊, 試練",
+        "tags": "有名補完, 実在伝承, 悪魔学, 天使, ユダヤ伝承",
+        "summary": "ユダヤ伝承で死や告発、毒と結びつく天使的・悪魔的存在。神の敵対者というより、試練や破壊を担う複雑な役回りで語られる。",
+        "description": "サマエルはユダヤ教神秘主義や後世の悪魔学で重要な名で、「神の毒」などと解釈される。死の天使、告発者、破壊の天使、蛇と結びつく存在として語られる一方、神の命令のもとで厳しい役目を果たす天使として扱われることもある。悪魔王、裁きの執行者、リリスの伴侶という文脈でも使われる。",
+        "see_also": "アザゼル, リリス, ルシファー, メタトロン",
+    },
+    {
+        "term": "大黒天",
+        "reading": "だいこくてん",
+        "aliases": "Daikokuten, Mahakala, マハーカーラ",
+        "language": "Japanese",
+        "kind": "神",
+        "mythology": "日本/仏教/七福神",
+        "domains": "財福, 食物, 厨房, 豊穣, 商売",
+        "tags": "有名補完, 実在信仰, 七福神, 日本神話, 仏教",
+        "summary": "七福神の一柱として知られる福の神。米俵、大きな袋、打ち出の小槌を持つ姿で、財福や食物、商売繁盛を象徴する。",
+        "description": "大黒天はインドのマハーカーラが仏教を通じて日本に入り、日本の大国主とも習合して広まった神格。厨房や食物を守る神、財福をもたらす神として信仰され、七福神では米俵に乗り袋と小槌を持つ丸みのある姿が有名。豊かさ、蓄財、商売、家の台所を守る名前として使いやすい。",
+        "see_also": "七福神, 大国主, 恵比寿, 弁財天",
+    },
+    {
+        "term": "寿老人",
+        "reading": "じゅろうじん",
+        "aliases": "Jurojin",
+        "language": "Japanese",
+        "kind": "神",
+        "mythology": "日本/道教/七福神",
+        "domains": "長寿, 福徳, 星, 老人, 知恵",
+        "tags": "有名補完, 実在信仰, 七福神, 道教, 日本民間信仰",
+        "summary": "七福神の一柱で、長寿を授ける老人神。杖や巻物、鹿などとともに描かれることが多い。",
+        "description": "寿老人は中国の南極老人星信仰に由来するとされる長寿の神で、日本では七福神の一柱として親しまれる。白髭の老人が杖を持つ姿で、巻物には人の寿命が記されるともいう。鹿、桃、鶴など長寿の象徴と結びつき、穏やかな知恵と長命の加護を表す。",
+        "see_also": "七福神, 福禄寿, 布袋, 大黒天",
+    },
+    {
+        "term": "布袋",
+        "reading": "ほてい",
+        "aliases": "Hotei, Budai",
+        "language": "Japanese",
+        "kind": "神/僧",
+        "mythology": "日本/仏教/七福神",
+        "domains": "福徳, 笑い, 豊かさ, 寛容, 未来仏",
+        "tags": "有名補完, 実在信仰, 七福神, 仏教, 日本民間信仰",
+        "summary": "七福神の一柱で、大きな袋と笑顔で知られる福徳の神。中国の布袋和尚に由来し、豊かさや寛容を象徴する。",
+        "description": "布袋は中国に実在したとされる禅僧・契此をもとにした存在で、日本では七福神の一柱となった。太鼓腹で笑い、大きな袋を背負う姿が有名で、その袋には人々に分け与える宝や幸運が入っているとされる。弥勒菩薩の化身と見なされることもあり、陽気さ、寛大さ、未来への福を表す。",
+        "see_also": "七福神, 寿老人, 大黒天, 弥勒菩薩",
+    },
+]
+
+
+def merge_entry(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    merged = {field: existing.get(field, "") for field in ENTRY_FIELDS}
+    for field in ENTRY_FIELDS:
+        value = incoming.get(field, "")
+        if not value:
+            continue
+        if field in {"aliases", "domains", "tags", "see_also", "sources"}:
+            merged[field] = merge_multi_values(existing.get(field, ""), value)
+        elif field in {"summary", "description"}:
+            if len(str(value)) > len(str(existing.get(field, ""))):
+                merged[field] = value
+        elif not merged.get(field):
+            merged[field] = value
+    merged["sources"] = merge_multi_values(merged.get("sources", ""), SOURCE_TEXT)
+    return merged
+
+
+def main() -> None:
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if DB_PATH.exists() and not BACKUP_PATH.exists():
+        shutil.copy2(DB_PATH, BACKUP_PATH)
+
+    OUT_PATH.write_text(json.dumps(TERMS, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    created = 0
+    updated = 0
+    with get_connection(DB_PATH) as conn:
+        for entry in TERMS:
+            entry = {**entry, "sources": SOURCE_TEXT}
+            matches = find_entries_by_term_in_conn(conn, entry["term"])
+            if matches:
+                update_entry_in_conn(conn, matches[0]["id"], merge_entry(matches[0], entry))
+                updated += 1
+            else:
+                insert_entry(conn, entry)
+                created += 1
+
+    print(f"created={created} updated={updated} total={created + updated}")
+    print(f"wrote={OUT_PATH}")
+    if BACKUP_PATH.exists():
+        print(f"backup={BACKUP_PATH}")
+
+
+if __name__ == "__main__":
+    main()

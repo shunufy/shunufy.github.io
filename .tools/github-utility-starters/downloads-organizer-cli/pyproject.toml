@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "downloads-organizer-cli"
+version = "0.1.0"
+description = "A safe dry-run-first CLI for organizing Downloads folders."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Codex" }]
+keywords = ["downloads", "organizer", "files", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+]
+
+[project.scripts]
+downloads-organizer = "downloads_organizer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
