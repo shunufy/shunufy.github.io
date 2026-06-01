@@ -1,0 +1,31 @@
+name: Data quality fix
+description: Report a typo, duplicate, weak description, or source problem.
+title: "[Data]: "
+labels: ["data", "quality"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: Affected term
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Typo or display issue
+        - Duplicate entry
+        - Weak or unclear description
+        - Missing or weak source
+        - Wrong mythology/category/tag
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true
+

@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Project README
+    url: https://github.com/shunufy/shunufy.github.io/tree/main/mythology-dictionary
+    about: Read setup and contribution notes before filing an issue.
+

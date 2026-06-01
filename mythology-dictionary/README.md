@@ -1,99 +1,120 @@
-# 用語辞典
+# Mythology Dictionary
 
-神話・伝承・世界観設定用語をローカルで管理する SQLite + Streamlit 製の辞典アプリです。
-外部APIは使いません。データは `data/dictionary.sqlite3` に保存されます。
+[![CI](https://github.com/shunufy/shunufy.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/shunufy/shunufy.github.io/actions/workflows/ci.yml)
 
-## ローカル専用で開く
+A local-first mythology and folklore dictionary built with Streamlit, SQLite,
+FTS5, and RapidFuzz.
 
-Windowsでは、まずこれを使ってください。
+The project is designed for creators, game developers, writers, and learners
+who want a searchable reference for mythological names, deities, legendary
+places, artifacts, motifs, and folklore terms.
 
-```powershell
-start_local.bat
-```
+## Highlights
 
-起動後、ブラウザで次を開きます。
+- 2,000+ bundled entries in `data/dictionary.sqlite3`.
+- Quick search, SQLite full-text search, and fuzzy search.
+- Filters for mythology, kind, language, domains, and tags.
+- Detail pages with aliases, summaries, descriptions, related terms, and source notes.
+- CSV, JSON, JSONL, and Markdown import/export.
+- Local-only default Streamlit configuration bound to `127.0.0.1`.
+- Tests and dictionary integrity checks for ongoing maintenance.
 
-```text
-http://127.0.0.1:8501/
-```
-
-`127.0.0.1` は自分のPCだけを指すローカルアドレスです。インターネット上に公開するURLではありません。
-
-## 初回セットアップ
-
-Python 3.11+ を入れた状態で、このフォルダを PowerShell で開いて実行します。
+## Quick Start
 
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-start_local.bat
-```
-
-`py` が使えない場合は、代わりに `python` を使ってください。
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-start_local.bat
-```
-
-## 手動で起動する場合
-
-```powershell
 python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501
 ```
 
-`.streamlit/config.toml` でも `127.0.0.1` 固定にしているため、通常の `streamlit run app.py` でもローカル専用で起動します。
-
-## できること
-
-- 用語の追加・編集・削除
-- クイック検索、全文検索、あいまい検索
-- 神話体系、種別、言語、属性、タグでの絞り込み
-- 属性やタグからの逆引き
-- 関連語ジャンプ
-- 詳細ページで近い項目を表示
-- CSV / JSON / JSONL import
-- CSV / JSON / Markdown export
-- 管理ページで辞書の点検
-
-## データ項目
-
-| field | 内容 |
-| --- | --- |
-| term | 見出し語 |
-| reading | 読み/かな |
-| aliases | 別名・英語表記 |
-| language | 言語 |
-| kind | 種別 |
-| mythology | 神話体系 |
-| domains | 属性/分野 |
-| tags | タグ |
-| summary | 短い説明 |
-| description | 詳説 |
-| see_also | 関連語 |
-| sources | 出典/参考 |
-
-`aliases`, `domains`, `tags`, `see_also`, `sources` はカンマ区切りで複数指定できます。
-
-## テスト
+Or on Windows:
 
 ```powershell
-python -m pytest
+start_local.bat
 ```
 
-## 主なファイル
+Then open:
 
 ```text
-app.py                 Streamlit UI
-db.py                  SQLite初期化、CRUD、検索
-models.py              入力整形、複数値の正規化
-import_export.py       CSV/JSON/Markdown入出力
-seed.py                初期データ投入
-start_local.bat        ローカル専用起動
-.streamlit/config.toml Streamlitローカル専用設定
-data/dictionary.sqlite3 辞書DB
-tests/test_db.py       最小テスト
+http://127.0.0.1:8501/
 ```
+
+## Project Structure
+
+```text
+mythology-dictionary/
+  app.py                       Streamlit UI
+  db.py                        SQLite schema, CRUD, search, quality queries
+  models.py                    Entry normalization and list-field helpers
+  import_export.py             CSV, JSON, JSONL, and Markdown import/export
+  seed.py                      Seed data loader
+  data/dictionary.sqlite3      Bundled dictionary database
+  data/*.json                  Themed data packs and enrichment batches
+  scripts/check_dictionary.py  Database and JSON integrity checks
+  tests/test_db.py             Database and search behavior tests
+```
+
+## Data Model
+
+| Field | Purpose |
+| --- | --- |
+| `term` | Main display name. |
+| `reading` | Reading, kana, transliteration, or pronunciation hint. |
+| `aliases` | Alternate names, English forms, and spelling variants. |
+| `language` | Language or broad source language. |
+| `kind` | Deity, creature, place, artifact, concept, text, etc. |
+| `mythology` | Mythology, folklore, religion, or cultural tradition. |
+| `domains` | High-level domains such as sky, sea, death, war, fertility. |
+| `tags` | Search-friendly labels. |
+| `summary` | One short, useful sentence. |
+| `description` | Practical explanation with distinguishing detail. |
+| `see_also` | Related entries. |
+| `sources` | Stable references or source notes. |
+
+## Maintenance Checks
+
+```powershell
+python scripts/check_dictionary.py
+python -m pytest tests
+python -m compileall app.py db.py models.py import_export.py seed.py scripts tests
+```
+
+## Import and Export
+
+The app supports:
+
+- CSV import/export
+- JSON import/export
+- JSONL import
+- Markdown export
+
+Import conflict handling supports skip, overwrite, and alias-merge modes.
+
+## Curation Policy
+
+This project focuses on real mythology, folklore, legendary geography,
+religious tradition, named artifacts, and culturally attested motifs. Fictional
+or franchise-only material should stay out of scope unless the project scope is
+explicitly expanded.
+
+See:
+
+- [Data Sources and Curation Policy](DATA_SOURCES.md)
+- [Contributing](CONTRIBUTING.md)
+- [Development Log](DEVELOPMENT_LOG.md)
+- [Changelog](CHANGELOG.md)
+- [Roadmap](ROADMAP.md)
+- [Quality Summary](reports/quality-summary.md)
+
+## Current Status
+
+This is an early public release of a project that was first developed locally.
+The public repository now includes the app, bundled data, tests, reproducible
+data packs, maintenance documentation, and CI configuration.
+
+## License
+
+The source code in this directory is released under the MIT License. Dictionary
+data is curated for practical reference use; see `DATA_SOURCES.md` for source
+and curation notes.
